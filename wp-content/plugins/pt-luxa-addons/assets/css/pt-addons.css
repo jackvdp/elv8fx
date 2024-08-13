@@ -4234,7 +4234,7 @@
       -ms-flex: 1 0 0px;
           flex: 1 0 0;
   overflow: hidden;
-  background: url(/assets/background.webp) 50%;
+  background: url(/assets/images/background.webp) 50%;
   -webkit-background-size: cover;
           background-size: cover;
 }
