@@ -6,6 +6,7 @@ import Security from './components/Security';
 import Contact from './components/Contact';
 import Safeguarding from './components/Safeguarding';
 import Complaints from './components/Complaints';
+import Error404 from './components/404';
 
 function App() {
     return (
@@ -18,6 +19,9 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/safeguarding" element={<Safeguarding />} />
                 <Route path="/complaints" element={<Complaints />} />
+                <Route path="/404" element={<Error404 />} />
+                {/* TODO: Get contact page fully working */}
+                {/* TODO: How do I ensure bad requests go to 404 */}
             </Routes>
         </Router>
     );
