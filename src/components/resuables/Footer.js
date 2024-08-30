@@ -64,7 +64,7 @@ export default function Footer() {
                                     <a href="/complaints"><span>Complaints</span></a>
                                 </div>
                                 <div className="contact-row">
-                                    <a href="/safeguar"><span>Safeguarding Funds</span></a>
+                                    <a href="/safeguarding"><span>Safeguarding Funds</span></a>
                                 </div>
                             </div>
                         </div>
