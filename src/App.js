@@ -5,6 +5,7 @@ import Services from './components/Services';
 import Security from './components/Security';
 import Contact from './components/Contact';
 import Safeguarding from './components/Safeguarding';
+import Complaints from './components/Complaints';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                 <Route path="/security" element={<Security />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/safeguarding" element={<Safeguarding />} />
+                <Route path="/complaints" element={<Complaints />} />
             </Routes>
         </Router>
     );
