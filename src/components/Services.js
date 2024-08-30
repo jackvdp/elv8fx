@@ -32,10 +32,14 @@ export default function Services() {
             };
         }
     }, []);
+    
     return (
         <div
             className="page-template page-template-template-landing page-template-template-landing-php page page-id-180 unknown preloader-true header-container header-light header-logo-left header-space-false right-click-disable-false mobile-images-false custom-cursor-true hide-popup-download-link wpb-js-composer js-comp-ver-7.4 vc_responsive">
             <div id="page">
+                <MouseCursor />
+                <Preloader />
+                <NavBar />
 
                 <div className="header-space"></div>
                 <main className="main-container">
@@ -55,13 +59,13 @@ export default function Services() {
                                                     </div>
                                                 </div>
                                                 <div className="banner-item tal"
-                                                    style={{backgroundImage: "url(/wp/images/AdobeStock_286776272-copy.jpeg)"}}>
+                                                    style={{ backgroundImage: "url(/wp/images/AdobeStock_286776272-copy.jpeg)" }}>
 
                                                     <div className="bg-overlay">
                                                     </div>
 
                                                     <div className="container">
-                                                        <div className="row align-items-center fixed-height" style={{height: "575px"}}>
+                                                        <div className="row align-items-center fixed-height" style={{ height: "575px" }}>
                                                             <div className="col">
                                                                 <div className="heading-block tal">
                                                                     <div className="sub-h">services</div>
@@ -216,7 +220,7 @@ export default function Services() {
                                 <div className="wpb_column vc_column_container vc_col-sm-12">
                                     <div className="vc_column-inner ">
                                         <div className="wpb_wrapper">
-                                            <div className="vc_empty_space" style={{height: "64px"}}><span className="vc_empty_space_inner"></span></div>
+                                            <div className="vc_empty_space" style={{ height: "64px" }}><span className="vc_empty_space_inner"></span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -224,6 +228,7 @@ export default function Services() {
                         </div>
                     </div>
                 </main>
+                <Footer />
             </div>
         </div>
     )
