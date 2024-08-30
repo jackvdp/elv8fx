@@ -425,3 +425,49 @@ h6,
 .vc_custom_1707296244897 {
     margin-top: 60px !important;
 }
+
+.wp-block-button__link {
+    color: #fff;
+    background-color: #32373c;
+    border-radius: 9999px;
+    box-shadow: none;
+    text-decoration: none;
+    padding: calc(.667em + 2px) calc(1.333em + 2px);
+    font-size: 1.125em
+}
+
+.wp-block-file__button {
+    background: #32373c;
+    color: #fff;
+    text-decoration: none
+}
+
+.vc_custom_1554186257608 {
+    margin-bottom: 15px !important;
+}
+
+.vc_custom_1707237899435 {
+    margin-bottom: 35px !important;
+    padding-bottom: 100% !important;
+    background-image: url(/wp/images/AdobeStock_269532653-copy.jpeg?id=850) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.vc_custom_1554186194062 {
+    margin-bottom: 35px !important;
+}
+
+.vc_custom_1554186206437 {
+    margin-bottom: 35px !important;
+}
+
+.vc_custom_1554185717393 {
+    margin-top: 40px !important;
+    margin-bottom: 50px !important;
+}
+
+.vc_custom_1707213467286 {
+    margin-bottom: 0px !important;
+}

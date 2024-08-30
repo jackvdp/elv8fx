@@ -1,0 +1,171 @@
+import React, { useEffect } from "react"
+import NavBar from './resuables/NavBar';
+import MouseCursor from './resuables/MouseCursor';
+import Preloader from './resuables/Preloader';
+import Footer from "./resuables/Footer";
+
+export default function Contact() {
+
+    useEffect(() => {
+        jQuery(document).ready(function (jQuery) {
+            jQuery('#map-5ca2fd861224f').each(function () {
+                function initialize() {
+                    var myLatlng = new google.maps.LatLng(51.518421, -0.088690);
+                    var mapOptions = {
+                        zoom: 16,
+                        center: myLatlng,
+                        disableDefaultUI: true,
+                        scrollwheel: false,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP,
+                        styles: [{
+                            'featureType': 'all',
+                            'elementType': 'all',
+                            'stylers': [{
+                                'saturation': -100
+                            }, {
+                                'gamma': .5
+                            }]
+                        }]
+                    }
+                    var map = new google.maps.Map(document.getElementById('map-5ca2fd861224f'), mapOptions);
+
+                    var myLatLng = new google.maps.LatLng(51.518421, -0.088690);
+                    var beachMarker = new google.maps.Marker({
+                        position: myLatLng,
+                        map: map
+                    });
+                    google.maps.event.addDomListener(window, 'resize', function () {
+                        var center = map.getCenter();
+                        google.maps.event.trigger(map, 'resize');
+                        map.setCenter(center);
+                    })
+                }
+                google.maps.event.addDomListener(window, 'load', initialize);
+            })
+        })
+    }, [])
+
+    return (
+        <div
+            className="page-template page-template-template-landing page-template-template-landing-php page page-id-178 unknown preloader-true header-container header-light header-logo-left header-space-true right-click-disable-false mobile-images-false custom-cursor-true hide-popup-download-link wpb-js-composer js-comp-ver-7.4 vc_responsive">
+            <div id="page">
+
+                <MouseCursor />
+                <Preloader />
+                <NavBar />
+
+                <div className="header-space"></div>
+                <main className="main-container">
+                    <div className="container">
+
+                        <div className="wpb-content-wrapper">
+                            <div className="vc_row wpb_row vc_row-fluid vc_custom_1554186257608 vc_row-5ca2f9c637616">
+                                <div className="wpb_column vc_column_container vc_col-sm-12">
+                                    <div className="vc_column-inner " >
+                                        <div className="wpb_wrapper">
+                                            <div className="heading-block heading-5ca2f90bb768f tal h-h2 vc_custom_1554185717393">
+                                                <h2 className="h">Contact Us</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="side-img wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
+                                    <div className="vc_column-inner vc_custom_1707237899435" >
+                                        <div className="wpb_wrapper"></div>
+                                    </div>
+                                </div>
+                                <div className="wpb_column vc_column_container vc_col-sm-4">
+                                    <div className="vc_column-inner vc_custom_1554186194062" >
+                                        <div className="wpb_wrapper">
+                                            <div className="contact-row contact-row-5ca2fb3313f0b with-h">
+                                                <i className="base-icon-envelope"></i>
+                                                <div className="content">
+                                                    <div className="h">e-mail:</div>
+                                                    <span>info@elev8exchange.com</span>
+                                                </div>
+                                            </div>
+                                            <div className="contact-row contact-row-5ca2fb605f3f5 with-h">
+                                                <i className="base-icon-placeholder"></i>
+                                                <div className="content">
+                                                    <div className="h">location:</div>
+                                                    <span>1 Moor Place, 1 Fore Street Avenue, London EC2Y 9DT</span>
+                                                </div>
+                                            </div>
+                                            <div className="contact-row contact-row-5ca2fb7230dec with-h">
+                                                <i className="base-icon-phone-call"></i>
+                                                <div className="content">
+                                                    <div className="h">Phone:</div>
+                                                    <span>+44 (0) 20 4580 1415</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="wpb_column vc_column_container vc_col-sm-4">
+                                    <div className="vc_column-inner vc_custom_1554186206437" >
+                                        <div className="wpb_wrapper">
+                                            <div className="wpb_text_column wpb_content_element  vc_custom_1707213467286">
+                                                <div className="wpb_wrapper">
+
+                                                    <div className="wpcf7 no-js" id="wpcf7-f774-p178-o1" lang="ru-RU" dir="ltr">
+                                                        <div className="screen-reader-response">
+                                                            <p role="status" aria-live="polite" aria-atomic="true"></p>
+                                                            <ul></ul>
+                                                        </div>
+                                                        <form action="/contact/?simply_static_page=524#wpcf7-f774-p178-o1" method="post"
+                                                            className="wpcf7-form init" aria-label="Contact form" noValidate="novalidate" data-status="init">
+                                                            <div style={{ display: "none" }}>
+                                                                <input type="hidden" name="_wpcf7" value="774" />
+                                                                <input type="hidden" name="_wpcf7_version" value="5.8.6" />
+                                                                <input type="hidden" name="_wpcf7_locale" value="ru_RU" />
+                                                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f774-p178-o1" />
+                                                                <input type="hidden" name="_wpcf7_container_post" value="178" />
+                                                                <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+                                                            </div>
+                                                            <div className="contact-form">
+                                                                <div className="input-row"><span className="wpcf7-form-control-wrap" data-name="f-name">
+                                                                    <input
+                                                                        size="40" className="wpcf7-form-control wpcf7-text style1" aria-invalid="false"
+                                                                        placeholder="Full Name" value="" type="text" name="f-name" /></span></div>
+                                                                <div className="input-row"><span className="wpcf7-form-control-wrap" data-name="email"><input
+                                                                    size="40" className="wpcf7-form-control wpcf7-text style1" aria-invalid="false"
+                                                                    placeholder="E-mail" value="" type="text" name="email" /></span></div>
+                                                                <div className="input-row">
+                                                                    <label>Message</label><span className="wpcf7-form-control-wrap" data-name="message"><textarea
+                                                                        cols="40" rows="6" className="wpcf7-form-control wpcf7-textarea style1"
+                                                                        aria-invalid="false" name="message"></textarea></span>
+                                                                </div>
+                                                                <button className="button-style1" type="submit"><span
+                                                                    className="d"><span></span></span><span>Send</span></button>
+                                                            </div>
+                                                            <div className="wpcf7-response-output" aria-hidden="true"></div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true"
+                                className="vc_row wpb_row vc_row-fluid vc_row-5ca2fdc069e92 vc_row-no-padding">
+                                <div className="wpb_column vc_column_container vc_col-sm-12">
+                                    <div className="vc_column-inner " >
+                                        <div className="wpb_wrapper">
+                                            <div className="map-block map-5ca2fd861224f">
+                                                <div className="map" id="map-5ca2fd861224f" style={{ width: "100%", height: "360px" }}>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="vc_row-full-width vc_clearfix"></div>
+                        </div>
+                    </div>
+                </main>
+                <Footer />
+            </div>
+        </div>
+    )
+}
