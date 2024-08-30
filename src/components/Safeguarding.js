@@ -6,28 +6,28 @@ import Preloader from "./resuables/Preloader";
 export default function Safeguarding() {
     return (
         <body
-            class="page-template page-template-template-landing page-template-template-landing-php page page-id-897 unknown preloader-true header-container header-light header-logo-left header-space-true right-click-disable-false mobile-images-false custom-cursor-true hide-popup-download-link wpb-js-composer js-comp-ver-7.4 vc_responsive">
+            className="page-template page-template-template-landing page-template-template-landing-php page page-id-897 unknown preloader-true header-container header-light header-logo-left header-space-true right-click-disable-false mobile-images-false custom-cursor-true hide-popup-download-link wpb-js-composer js-comp-ver-7.4 vc_responsive">
             <div id="page">
                 <MouseCursor />
                 <Preloader />
                 <NavBar />
 
-                <div class="header-space"></div>
-                <main class="main-container">
-                    <div class="container">
+                <div className="header-space"></div>
+                <main className="main-container">
+                    <div className="container">
 
-                        <div class="wpb-content-wrapper">
+                        <div className="wpb-content-wrapper">
                             <div
-                                class="vc_row wpb_row vc_row-fluid vc_row-5c99cd717f62c vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
-                                    <div class="vc_column-inner vc_custom_1707296244897">
-                                        <div class="wpb_wrapper">
-                                            <div class="heading-block heading-5c99cd7d59d6e tal h-h5">
-                                                <h5 class="h">Safeguarding Your Funds</h5>
+                                className="vc_row wpb_row vc_row-fluid vc_row-5c99cd717f62c vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
+                                <div className="wpb_column vc_column_container vc_col-sm-12">
+                                    <div className="vc_column-inner vc_custom_1707296244897">
+                                        <div className="wpb_wrapper">
+                                            <div className="heading-block heading-5c99cd7d59d6e tal h-h5">
+                                                <h5 className="h">Safeguarding Your Funds</h5>
                                             </div>
 
-                                            <div class="wpb_text_column wpb_content_element ">
-                                                <div class="wpb_wrapper">
+                                            <div className="wpb_text_column wpb_content_element ">
+                                                <div className="wpb_wrapper">
                                                     <section>Ensuring the safety and security of your funds is our top priority. We understand the
                                                         importance of trust and reliability in managing your financial transactions. That&#8217;s why
                                                         we&#8217;ve partnered with an esteemed Electronic Money Institution, Currencycloud, to safeguard

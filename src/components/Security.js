@@ -7,28 +7,28 @@ import Footer from "./resuables/Footer";
 export default function Security() {
     return (
         <body
-            class="page-template page-template-template-landing page-template-template-landing-php page page-id-783 unknown preloader-true header-container header-light header-logo-left header-space-true right-click-disable-false mobile-images-false custom-cursor-true hide-popup-download-link wpb-js-composer js-comp-ver-7.4 vc_responsive">
+            className="page-template page-template-template-landing page-template-template-landing-php page page-id-783 unknown preloader-true header-container header-light header-logo-left header-space-true right-click-disable-false mobile-images-false custom-cursor-true hide-popup-download-link wpb-js-composer js-comp-ver-7.4 vc_responsive">
             <div id="page">
                 <MouseCursor />
                 <Preloader />
                 <NavBar />
 
-                <div class="header-space"></div>
-                <main class="main-container">
-                    <div class="container">
+                <div className="header-space"></div>
+                <main className="main-container">
+                    <div className="container">
 
-                        <div class="wpb-content-wrapper">
+                        <div className="wpb-content-wrapper">
                             <div
-                                class="vc_row wpb_row vc_row-fluid vc_row-5c99cd717f62c vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
-                                    <div class="vc_column-inner vc_custom_1707296244897" >
-                                        <div class="wpb_wrapper">
-                                            <div class="heading-block heading-5c99cd7d59d6e tal h-h5">
-                                                <h5 class="h">Security &amp; Regulation</h5>
+                                className="vc_row wpb_row vc_row-fluid vc_row-5c99cd717f62c vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
+                                <div className="wpb_column vc_column_container vc_col-sm-12">
+                                    <div className="vc_column-inner vc_custom_1707296244897" >
+                                        <div className="wpb_wrapper">
+                                            <div className="heading-block heading-5c99cd7d59d6e tal h-h5">
+                                                <h5 className="h">Security &amp; Regulation</h5>
                                             </div>
 
-                                            <div class="wpb_text_column wpb_content_element ">
-                                                <div class="wpb_wrapper">
+                                            <div className="wpb_text_column wpb_content_element ">
+                                                <div className="wpb_wrapper">
                                                     <p><strong>Security &amp; Compliance</strong></p>
                                                     <p>We take the security of your data and finances seriously, ensuring our processes and systems
                                                         are rigorously reviewed and updated to maintain a secure environment.</p>
