@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import NavBar from './resuables/NavBar';
 import MouseCursor from './resuables/MouseCursor';
 import Preloader from './resuables/Preloader';
+import SocialLinks from './resuables/SocialLinks';
 
 function App() {
     useEffect(() => {
@@ -60,16 +61,7 @@ function App() {
                                         <div className="wpb_wrapper">
                                             <div className="split-screen split-screen-5c9b3b8dd6e32">
                                                 <div className="mouse-button"><span></span></div>
-                                                <div className="banner-social-links">
-                                                    <div className="social-links">
-                                                        <a href="https://www.instagram.com/elev8group_/">
-                                                            <span>in</span><span>Instagram</span>
-                                                        </a>
-                                                        <a href="https://www.linkedin.com/company/elev8-groupuk/about/">
-                                                            <span>li</span><span>LinkedIn</span>
-                                                        </a>
-                                                    </div>
-                                                </div>
+                                                <SocialLinks />
                                                 <div className="navigation-block">
                                                     <div className="prev free-basic-ui-elements-down-arrow"></div>
                                                     <div className="pagination"></div>

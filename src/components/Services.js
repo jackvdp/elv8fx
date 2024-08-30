@@ -3,6 +3,7 @@ import NavBar from './resuables/NavBar';
 import MouseCursor from './resuables/MouseCursor';
 import Preloader from './resuables/Preloader';
 import Footer from "./resuables/Footer";
+import SocialLinks from "./resuables/SocialLinks";
 
 export default function Services() {
     useEffect(() => {
@@ -52,12 +53,7 @@ export default function Services() {
                                     <div className="vc_column-inner ">
                                         <div className="wpb_wrapper">
                                             <section className="banner-area banner-area-5ca20673a9716 bsl-right">
-                                                <div className="banner-social-links">
-                                                    <div className="social-links">
-                                                        <a href="https://www.instagram.com/elev8group_/"><span>in</span><span>Instagram</span></a><a
-                                                            href="https://www.linkedin.com/company/elev8-groupuk/about/"><span>li</span><span>LinkedIn</span></a>
-                                                    </div>
-                                                </div>
+                                                <SocialLinks />
                                                 <div className="banner-item tal"
                                                     style={{ backgroundImage: "url(/wp/images/AdobeStock_286776272-copy.jpeg)" }}>
 

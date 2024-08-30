@@ -2,6 +2,7 @@
 import NavBar from './resuables/NavBar';
 import MouseCursor from './resuables/MouseCursor';
 import Preloader from './resuables/Preloader';
+import SocialLinks from './resuables/SocialLinks';
 
 export default function Error404() {
     return (
@@ -16,12 +17,7 @@ export default function Error404() {
                 <div className="header-space"></div>
                 <main className="block-404 light-color bsl-right"
                     style={{backgroundImage: "url(/wp/images/AdobeStock_284254177-scaled.jpeg)"}}>
-                    <div className="banner-social-links">
-                        <div className="social-links">
-                            <a href="https://www.instagram.com/elev8group_/"><span>in</span><span>Instagram</span></a><a
-                                href="https://www.linkedin.com/company/elev8-groupuk/about/"><span>li</span><span>LinkedIn</span></a>
-                        </div>
-                    </div>
+                    <SocialLinks />
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col">
