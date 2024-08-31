@@ -71,11 +71,10 @@ function App() {
                                                     <div className="screen-item ops-screen-5c9b51791da07 white">
                                                         <div className="item item-left">
                                                             <div className="content">
-                                                                <div className="heading-block heading-5c9b51bdc7708 tal h-h2">
+                                                                <div className="heading-block tal h-h2">
                                                                     <h2 className="h">
-                                                                        <span>Elev8</span> – the Pinnacle of Fintech &amp;
-                                                                        Consultancy, Forging a Path Beyond
-                                                                        the Ordinary
+                                                                        <span>Elev8</span> – blending fintech &amp;
+                                                                        consultancy<br /><span>Best of both worlds</span>
                                                                     </h2>
                                                                 </div>
 
@@ -139,7 +138,7 @@ function App() {
                                                                 <div className="heading-block heading-5c9b520683d0e tal h-h2">
                                                                     <div className="sub-h">SPECIALISED FX SERVICES</div>
                                                                     <h2 className="h">Your Global <span>FX</span> Strategy,
-                                                                        <span>Elevated</span>
+                                                                        <span> Elevated</span>
                                                                     </h2>
                                                                 </div>
                                                                 <div
@@ -282,16 +281,17 @@ function App() {
                                                                 <div className="contact-row contact-row-5c9b68f2ca8cf medium">
                                                                     <i className="base-icon-envelope"></i>
                                                                     <div className="content">
-                                                                        <a
-                                                                            href="mailto:info@elev8exchange.com">info@elev8exchange.com</a>
+                                                                        <a href="mailto:info@elev8exchange.com">info@elev8exchange.com</a>
                                                                     </div>
                                                                 </div>
                                                                 <div className="contact-row contact-row-5c9b68ffab193 medium">
                                                                     <i className="base-icon-placeholder"></i>
                                                                     <div className="content">
-                                                                        <span>1 Moor Place, 1 Fore Street Avenue, London
-                                                                            EC2Y
-                                                                            9DT</span>
+                                                                        <span>
+                                                                            1 Moor Place<br />
+                                                                            1 Fore Street Avenue<br />
+                                                                            London<br />
+                                                                            EC2Y 9DT</span>
                                                                     </div>
                                                                 </div>
                                                                 <div

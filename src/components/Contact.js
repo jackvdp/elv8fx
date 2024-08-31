@@ -82,21 +82,21 @@ export default function Contact() {
                                                 <i className="base-icon-envelope"></i>
                                                 <div className="content">
                                                     <div className="h">e-mail:</div>
-                                                    <span>info@elev8exchange.com</span>
-                                                </div>
-                                            </div>
-                                            <div className="contact-row contact-row-5ca2fb605f3f5 with-h">
-                                                <i className="base-icon-placeholder"></i>
-                                                <div className="content">
-                                                    <div className="h">location:</div>
-                                                    <span>1 Moor Place, 1 Fore Street Avenue, London EC2Y 9DT</span>
+                                                    <a href="mailto:info@elev8exchange.com">info@elev8exchange.com</a>
                                                 </div>
                                             </div>
                                             <div className="contact-row contact-row-5ca2fb7230dec with-h">
                                                 <i className="base-icon-phone-call"></i>
                                                 <div className="content">
                                                     <div className="h">Phone:</div>
-                                                    <span>+44 (0) 20 4580 1415</span>
+                                                    <a href="tel:+442045801415">+44 (0) 20 4580 1415</a>
+                                                </div>
+                                            </div>
+                                            <div className="contact-row contact-row-5ca2fb605f3f5 with-h">
+                                                <i className="base-icon-placeholder"></i>
+                                                <div className="content">
+                                                    <div className="h">location:</div>
+                                                    <span>1 Moor Place<br/>1 Fore Street Avenuee<br/>Londone<br/>EC2Y 9DT</span>
                                                 </div>
                                             </div>
                                         </div>
