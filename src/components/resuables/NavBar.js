@@ -20,7 +20,7 @@ export default function NavBar() {
                                     <a href="/services/"><span>Services</span></a></li>
                                 <li id="menu-item-815"
                                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-815"><a
-                                        href="https://elev8exchange.sciopay.co/login"><span>Log In</span></a></li>
+                                        href="https://elev8exchange.sciopay.co/login" target="_blank"><span>Log In</span></a></li>
                                 <li id="menu-item-813"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-813">
                                     <a href="/security/"><span>Security</span></a></li>
