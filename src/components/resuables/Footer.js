@@ -3,7 +3,7 @@ export default function Footer() {
         <footer className="site-footer">
             <div className="container">
                 <div className="row">
-                    <div className="col-12 col-sm-6 col-lg-6">
+                    <div className="col-12 col-sm-6">
                         <Logo />
                         <Complaints />
                     </div>
