@@ -104,7 +104,7 @@ function SiteMap() {
                     <a href="/security"><span>Security</span></a>
                 </div>
                 <div className="contact-row-no-margin">
-                    <a href="/safeguarding"><span>Safeguarding Funds</span></a>
+                    <a href="/contact"><span>Contact Us</span></a>
                 </div>
                 <div className="contact-row-no-margin">
                     <a href="/complaints"><span>Complaints</span></a>
