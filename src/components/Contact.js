@@ -3,6 +3,7 @@ import NavBar from './resuables/NavBar';
 import MouseCursor from './resuables/MouseCursor';
 import Preloader from './resuables/Preloader';
 import Footer from "./resuables/Footer";
+import ContactForm from "./resuables/ContactForm";
 
 export default function Contact() {
 
@@ -112,34 +113,7 @@ export default function Contact() {
                                                             <p role="status" aria-live="polite" aria-atomic="true"></p>
                                                             <ul></ul>
                                                         </div>
-                                                        <form action="/contact/?simply_static_page=524#wpcf7-f774-p178-o1" method="post"
-                                                            className="wpcf7-form init" aria-label="Contact form" noValidate="novalidate" data-status="init">
-                                                            <div style={{ display: "none" }}>
-                                                                <input type="hidden" name="_wpcf7" value="774" />
-                                                                <input type="hidden" name="_wpcf7_version" value="5.8.6" />
-                                                                <input type="hidden" name="_wpcf7_locale" value="ru_RU" />
-                                                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f774-p178-o1" />
-                                                                <input type="hidden" name="_wpcf7_container_post" value="178" />
-                                                                <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-                                                            </div>
-                                                            <div className="contact-form">
-                                                                <div className="input-row"><span className="wpcf7-form-control-wrap" data-name="f-name">
-                                                                    <input
-                                                                        size="40" className="wpcf7-form-control wpcf7-text style1" aria-invalid="false"
-                                                                        placeholder="Full Name" value="" type="text" name="f-name" /></span></div>
-                                                                <div className="input-row"><span className="wpcf7-form-control-wrap" data-name="email"><input
-                                                                    size="40" className="wpcf7-form-control wpcf7-text style1" aria-invalid="false"
-                                                                    placeholder="E-mail" value="" type="text" name="email" /></span></div>
-                                                                <div className="input-row">
-                                                                    <label>Message</label><span className="wpcf7-form-control-wrap" data-name="message"><textarea
-                                                                        cols="40" rows="6" className="wpcf7-form-control wpcf7-textarea style1"
-                                                                        aria-invalid="false" name="message"></textarea></span>
-                                                                </div>
-                                                                <button className="button-style1" type="submit"><span
-                                                                    className="d"><span></span></span><span>Send</span></button>
-                                                            </div>
-                                                            <div className="wpcf7-response-output" aria-hidden="true"></div>
-                                                        </form>
+                                                        <ContactForm />
                                                     </div>
                                                 </div>
                                             </div>
