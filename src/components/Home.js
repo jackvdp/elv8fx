@@ -275,7 +275,7 @@ function App() {
                                                                 <div className="contact-row contact-row-5c9b68e143866 medium">
                                                                     <i className="base-icon-phone-call"></i>
                                                                     <div className="content">
-                                                                        <span>+44 (0) 20 4580 1415</span>
+                                                                        <a href="tel:+442045801415">+44 (0) 20 4580 1415</a>
                                                                     </div>
                                                                 </div>
                                                                 <div className="contact-row contact-row-5c9b68f2ca8cf medium">

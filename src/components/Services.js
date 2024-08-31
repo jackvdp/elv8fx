@@ -63,7 +63,7 @@ export default function Services() {
                                                     <div className="container">
                                                         <div className="row align-items-center fixed-height" style={{ height: "575px" }}>
                                                             <div className="col">
-                                                                <div className="heading-block tal">
+                                                                <div data-aos="fade-right" className="heading-block tal">
                                                                     <div className="sub-h">services</div>
                                                                     <h2 className="h">Tailored FX Solutions - Navigating Your <span>Financial Horizons</span>
                                                                     </h2>
@@ -88,7 +88,7 @@ export default function Services() {
                                             </div>
                                             <div className="icon-box2-block icon-box2-block-5ca2117449703 row">
                                                 <div className=" col-12 col-sm-6 col-md-4 col-lg-4">
-                                                    <div className="icon-box-style2 icon-box-style2-5ca211c676c29 tal">
+                                                    <div data-aos="fade-up" className="icon-box-style2 icon-box-style2-5ca211c676c29 tal">
                                                         <i className="free-basic-ui-elements-shield"></i>
                                                         <h5 className="h">
                                                             <span>Spot</span> Contracts
@@ -98,8 +98,8 @@ export default function Services() {
                                                             reliability in every exchange.</div>
                                                     </div>
                                                 </div>
-                                                <div className=" col-12 col-sm-6 col-md-4 col-lg-4">
-                                                    <div className="icon-box-style2 icon-box-style2-5ca211f9bfbca tal">
+                                                <div className="col-12 col-sm-6 col-md-4 col-lg-4">
+                                                    <div data-aos="fade-up" data-aos-delay="200" className="icon-box-style2 icon-box-style2-5ca211f9bfbca tal">
                                                         <i className="free-basic-ui-elements-up-arrow"></i>
                                                         <h5 className="h">
                                                             <span>Forward</span> Contracts
@@ -109,8 +109,8 @@ export default function Services() {
                                                             three years ahead, providing stability and peace of mind.</div>
                                                     </div>
                                                 </div>
-                                                <div className=" col-12 col-sm-6 col-md-4 col-lg-4">
-                                                    <div className="icon-box-style2 icon-box-style2-5ca2121a5a231 tal">
+                                                <div className="col-12 col-sm-6 col-md-4 col-lg-4">
+                                                    <div data-aos="fade-up" data-aos-delay="400" className="icon-box-style2 icon-box-style2-5ca2121a5a231 tal">
                                                         <i className="base-icon-shopping-bag"></i>
                                                         <h5 className="h">
                                                             <span>Market</span> Orders
@@ -120,7 +120,7 @@ export default function Services() {
                                                     </div>
                                                 </div>
                                                 <div className=" col-12 col-sm-6 col-md-4 col-lg-4">
-                                                    <div className="icon-box-style2 icon-box-style2- tal">
+                                                    <div data-aos="fade-up" data-aos-delay="200" className="icon-box-style2 icon-box-style2- tal">
                                                         <i className="essential-set-hold"></i>
                                                         <h5 className="h">
                                                             <span>Stop-Loss</span> Order
@@ -130,7 +130,7 @@ export default function Services() {
                                                     </div>
                                                 </div>
                                                 <div className=" col-12 col-sm-6 col-md-4 col-lg-4">
-                                                    <div className="icon-box-style2 icon-box-style2-5ca212346cb4e tal">
+                                                    <div data-aos="fade-up" data-aos-delay="400" className="icon-box-style2 icon-box-style2-5ca212346cb4e tal">
                                                         <i className="essential-set-flag-2"></i>
                                                         <h5 className="h">
                                                             <span>Limit</span> Order
@@ -140,7 +140,7 @@ export default function Services() {
                                                     </div>
                                                 </div>
                                                 <div className=" col-12 col-sm-6 col-md-4 col-lg-4">
-                                                    <div className="icon-box-style2 icon-box-style2-5ca212538f84f tal">
+                                                    <div data-aos="fade-up" data-aos-delay="600" className="icon-box-style2 icon-box-style2-5ca212538f84f tal">
                                                         <i className="essential-set-exit-1"></i>
                                                         <h5 className="h">Orders-<span>Cancels</span>-Order</h5>
                                                         <div className="desc">Combine limit and stop-loss orders for comprehensive market engagement,

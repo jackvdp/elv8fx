@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { useEffect } from 'react';
 import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
@@ -6,9 +7,17 @@ import Security from './components/Security';
 import Contact from './components/Contact';
 import Safeguarding from './components/Safeguarding';
 import Complaints from './components/Complaints';
-import Error404 from './components/404';
+import Error404 from './components/404'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            delay: 100
+        });
+    }, []);
     return (
         <Router>
             <Routes>

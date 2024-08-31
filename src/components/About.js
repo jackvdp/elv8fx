@@ -82,14 +82,14 @@ function About() {
                                                     <div className="container">
                                                         <div className="row align-items-center fixed-height" style={{ height: "575px" }}>
                                                             <div className="col">
-                                                                <div className="heading-block tal">
+                                                                <div data-aos="fade-right" className="heading-block tal">
                                                                     <div className="sub-h">about us</div>
                                                                     <h2 className="h">We believe that our<br />
                                                                         work creates shared<br />
-                                                                        value for <span>Customers</span>
+                                                                        value for <span>customers</span>
                                                                     </h2>
                                                                 </div>
-                                                                <a className="button-style1" href="/services" target="_self"><span
+                                                                <a data-aos="fade-left" data-aos-delay="200" className="button-style1" href="/services" target="_self"><span
                                                                     className="d"><span></span></span><span>Our Services</span></a>
                                                             </div>
                                                         </div>
@@ -284,7 +284,7 @@ function About() {
                                                 <h3 className="h">Our Team</h3>
                                             </div>
                                             <div className="team-carousel team-carousel-5c938618203d9">
-                                                <div className="team-item team-item-5c938bd714bd3">
+                                                <div data-aos="zoom-in" className="team-item team-item-5c938bd714bd3">
                                                     <div className="image"
                                                         style={{ backgroundImage: "url(/wp/images/PHOTO-2024-02-04-19-05-34-1024x683.jpg)" }}>
                                                         <div className="social-links"><a href="https://www.linkedin.com/in/josh-jewson-33a6b8142/"><i
@@ -295,7 +295,7 @@ function About() {
                                                         <div className="post">Founder</div>
                                                     </div>
                                                 </div>
-                                                <div className="team-item team-item-5c938be6d5fab">
+                                                <div data-aos="zoom-in" className="team-item team-item-5c938be6d5fab">
                                                     <div className="image"
                                                         style={{ backgroundImage: "url(/wp/images/PHOTO-2024-02-04-19-05-32-1024x683.jpg)" }}>
                                                         <div className="social-links"><a href="https://www.linkedin.com/in/terry-lovell-690084121/"><i
