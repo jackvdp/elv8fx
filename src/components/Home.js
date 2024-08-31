@@ -4,7 +4,7 @@ import MouseCursor from './resuables/MouseCursor';
 import Preloader from './resuables/Preloader';
 import SocialLinks from './resuables/SocialLinks';
 
-function App() {
+function Home() {
     useEffect(() => {
         jQuery(document).ready(function (jQuery) {
             jQuery('.split-screen-5c9b3b8dd6e32').pt_split_screen()
@@ -327,4 +327,4 @@ function App() {
 
 }
 
-export default App;
+export default Home;
