@@ -20,7 +20,6 @@ function App() {
                 <Route path="/safeguarding" element={<Safeguarding />} />
                 <Route path="/complaints" element={<Complaints />} />
                 <Route path="/404" element={<Error404 />} />
-                {/* TODO: Get contact page fully working */}
                 {/* TODO: How do I ensure bad requests go to 404 */}
             </Routes>
         </Router>
