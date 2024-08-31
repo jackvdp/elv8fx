@@ -5,13 +5,12 @@ export default function Footer() {
                 <div className="row">
                     <div className="col-12 col-sm-6 col-lg-6">
                         <Logo />
+                        <Complaints />
+                    </div>
+                    <div className="col-12 col-sm-3">
                         <SiteMap />
                     </div>
-                    <div className="hide">
-                    </div>
-                    <div className="col-12 col-sm-2">
-                    </div>
-                    <div className="col-12 col-sm-4">
+                    <div className="col-12 col-sm-3">
                         <Contacts />
                     </div>
                 </div>
@@ -27,6 +26,68 @@ function Logo() {
     return (
         <div className="site-logo"><a href="/"><img className="light" src="/assets/images/logo.webp" alt="Elev8 FX" /><img
             className="dark" src="/assets/images/logo.webp" alt="Elev8 FX" /></a></div>
+    )
+}
+
+function SiteMap() {
+    return (
+        <div id="custom_html-1" className="widget_text widget widget_custom_html">
+            <h6 className="widget-title">Links</h6>
+            <div className="textwidget custom-html-widget">
+                <div className="contact-row-no-margin">
+                    <a href="/"><span>Home</span></a>
+                </div>
+                <div className="contact-row-no-margin">
+                    <a href="/about"><span>About</span></a>
+                </div>
+                <div className="contact-row-no-margin">
+                    <a href="/services"><span>Services</span></a>
+                </div>
+                <div className="contact-row-no-margin">
+                    <a href="/security"><span>Security</span></a>
+                </div>
+                <div className="contact-row-no-margin">
+                    <a href="/contact"><span>Contact Us</span></a>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+function Complaints() {
+    return (
+        <div id="custom_html-1" className="widget_text widget widget_custom_html">
+            <div className="text-widget-light-color custom-html-widget">
+                <div className="contact-row-no-margin">
+                    <a href="/complaints"><span>Complaints</span></a>
+                </div>
+                <div className="contact-row-no-margin">
+                    <a href="/safeguarding"><span>Safeguarding Funds</span></a>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+function Contacts() {
+    return (
+        <div id="custom_html-1" className="widget_text widget widget_custom_html">
+            <h6 className="widget-title">Contacts</h6>
+            <div className="textwidget custom-html-widget">
+                <div className="contact-row">
+                    <i className="base-icon-phone-call"></i>
+                    <a href="tel:+442045801415"><span>+44 (0) 20 4580 1415</span></a>
+                </div>
+                <div className="contact-row">
+                    <i className="base-icon-envelope"></i>
+                    <a href="mailto:info@elev8exchange.com"><span>info@elev8exchange.com</span></a>
+                </div>
+                <div className="contact-row">
+                    <i className="base-icon-placeholder"></i>
+                    <span>1 Moor Place<br />1 Fore Street Avenue<br />London<br />EC2Y 9DT</span>
+                </div>
+            </div>
+        </div>
     )
 }
 
@@ -63,55 +124,6 @@ function DisclaimerText() {
                         under the Electronic Money Regulations 2011 for the issuing of electronic money (FRN:
                         900199).</span>
                 </p>
-            </div>
-        </div>
-    )
-}
-
-function Contacts() {
-    return (
-        <div id="custom_html-1" className="widget_text widget widget_custom_html">
-            <h6 className="widget-title">Contacts</h6>
-            <div className="textwidget custom-html-widget">
-                <div className="contact-row">
-                    <i className="base-icon-phone-call"></i>
-                    <a href="tel:+442045801415"><span>+44 (0) 20 4580 1415</span></a>
-                </div>
-                <div className="contact-row">
-                    <i className="base-icon-envelope"></i>
-                    <a href="mailto:info@elev8exchange.com"><span>info@elev8exchange.com</span></a>
-                </div>
-                <div className="contact-row">
-                    <i className="base-icon-placeholder"></i>
-                    <span>1 Moor Place<br/>1 Fore Street Avenue<br/>London<br/>EC2Y 9DT</span>
-                </div>
-            </div>
-        </div>
-    )
-}
-
-function SiteMap() {
-    return (
-        <div id="custom_html-1" className="widget_text widget widget_custom_html">
-            <div className="textwidget custom-html-widget">
-                <div className="contact-row-no-margin">
-                    <a href="/about"><span>About</span></a>
-                </div>
-                <div className="contact-row-no-margin">
-                    <a href="/services"><span>Services</span></a>
-                </div>
-                <div className="contact-row-no-margin">
-                    <a href="/security"><span>Security</span></a>
-                </div>
-                <div className="contact-row-no-margin">
-                    <a href="/contact"><span>Contact Us</span></a>
-                </div>
-                <div className="contact-row-no-margin">
-                    <a href="/complaints"><span>Complaints</span></a>
-                </div>
-                <div className="contact-row-no-margin">
-                    <a href="/safeguarding"><span>Safeguarding Funds</span></a>
-                </div>
             </div>
         </div>
     )

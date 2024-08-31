@@ -9578,6 +9578,10 @@ textarea.style1 {
   font-size: 14px;
 }
 
+.text-widget-light-color {
+  opacity: 0.5;
+}
+
 /*
 - Search Form
 */
