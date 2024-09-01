@@ -1,0 +1,32 @@
+{
+    "header": {
+        "subtitle": "services",
+        "title": "Tailored FX Solutions - Navigating Your <1>Financial Horizons</1>"
+    },
+    "faq": {
+        "subtitle": "f.a.q.",
+        "title": "Frequently Asking Questions",
+        "questions": {
+            "fees": {
+                "question": "What are the fees?",
+                "answer": "We do not add on any fees, you will pay the agreed quote and we will forward the payment on for you."
+            },
+            "openAccount": {
+                "question": "How to open an account?",
+                "answer": "Opening an account is done via our online application form, this is free and doesn’t tie you into using us."
+            },
+            "safeguarding": {
+                "question": "How is my money safeguarded?",
+                "answer": "We partner with payment service providers, to ensure that your funds are handled with the utmost care. Our partners employ robust security measures, including holding client funds in segregated accounts separate from their own operating accounts, to enhance the safety and efficiency of your transactions."
+            },
+            "trackPayments": {
+                "question": "Can I track my payments?",
+                "answer": "Yes, we have a real-time GPI Tracking function built into the system so if you have sent your payment via SWIFT, we can see exactly where your funds are at from the second you set up a payment."
+            },
+            "fixRate": {
+                "question": "Can I fix a rate to minimise potential losses?",
+                "answer": "Yes, you will be assigned a dedicated trader with many years of experience who will help manage your FX exposure with all the currency tools we have to offer. We use tools such as Forwards, Limit Orders, Stop-Loss Orders, Order Cancels Orders and many more."
+            }
+        }
+    }
+}
