@@ -4,7 +4,6 @@
         "title": "Tailored FX Solutions - Navigating Your <1>Financial Horizons</1>"
     },
     "faq": {
-        "subtitle": "f.a.q.",
         "title": "Frequently Asking Questions",
         "questions": {
             "fees": {
@@ -27,6 +26,34 @@
                 "question": "Can I fix a rate to minimise potential losses?",
                 "answer": "Yes, you will be assigned a dedicated trader with many years of experience who will help manage your FX exposure with all the currency tools we have to offer. We use tools such as Forwards, Limit Orders, Stop-Loss Orders, Order Cancels Orders and many more."
             }
+        }
+    },
+    "ourServices": {
+        "subtitle": "what we do",
+        "title": "Services",
+        "spotContracts": {
+            "title": "<0>Spot</0> Contracts",
+            "description": "Secure today's exchange rate and complete payment within three business days for same-day processing. Every transaction comes with a confirmation, ensuring clarity and reliability in every exchange."
+        },
+        "forwardContracts": {
+            "title": "<0>Forward</0> Contracts",
+            "description": "Lock in today's rate for future payments, safeguarding against currency fluctuations. Ideal for budgeting and financial planning, forward contracts can be set up to three years ahead, providing stability and peace of mind."
+        },
+        "marketOrders": {
+            "title": "<0>Market</0> Orders",
+            "description": "Our suite of solutions strategically reduces risk, ensures forward planning for payments, and capitalizes on favorable market rates."
+        },
+        "stopLossOrder": {
+            "title": "<0>Stop-Loss</0> Order",
+            "description": "Protect your investments with a predetermined minimum rate, preventing potential losses."
+        },
+        "limitOrder": {
+            "title": "<0>Limit</0> Order",
+            "description": "Set your desired rate, and we execute the trade when the market aligns, maximizing your financial strategy."
+        },
+        "ordersCancelsOrder": {
+            "title": "Orders-<1>Cancels</1>-Order",
+            "description": "Combine limit and stop-loss orders for comprehensive market engagement, ensuring you strike the best balance between ambition and security."
         }
     }
 }

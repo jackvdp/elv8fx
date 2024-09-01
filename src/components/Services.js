@@ -110,75 +110,84 @@ function Header() {
     );
 }
 
+
 function OurServices() {
+    const { t } = useTranslation('services');
+
     return (
         <div className="vc_row wpb_row vc_row-fluid vc_custom_1554125165485 vc_row-5ca2116508778">
             <div className="wpb_column vc_column_container vc_col-sm-12">
-                <div className="vc_column-inner ">
+                <div className="vc_column-inner">
                     <div className="wpb_wrapper">
                         <div className="heading-block heading-5ca21135cb1a9 tac h-h3">
-                            <div className="sub-h">what we do</div>
-                            <h3 className="h">Services</h3>
+                            <div className="sub-h">{t('ourServices.subtitle')}</div>
+                            <h3 className="h">{t('ourServices.title')}</h3>
                         </div>
                         <div className="icon-box2-block icon-box2-block-5ca2117449703 row">
-                            <div className=" col-12 col-sm-6 col-md-4 col-lg-4">
+                            <div className="col-12 col-sm-6 col-md-4 col-lg-4">
                                 <div data-aos="fade-up" className="icon-box-style2 icon-box-style2-5ca211c676c29 tal">
                                     <i className="free-basic-ui-elements-shield"></i>
                                     <h5 className="h">
-                                        <span>Spot</span> Contracts
+                                        <Trans i18nKey="ourServices.spotContracts.title" ns="services">
+                                            <span>Spot</span> Contracts
+                                        </Trans>
                                     </h5>
-                                    <div className="desc">Secure today's exchange rate and complete payment within three business days
-                                        for same-day processing. Every transaction comes with a confirmation, ensuring clarity and
-                                        reliability in every exchange.</div>
+                                    <div className="desc">{t('ourServices.spotContracts.description')}</div>
                                 </div>
                             </div>
                             <div className="col-12 col-sm-6 col-md-4 col-lg-4">
                                 <div data-aos="fade-up" data-aos-delay="200" className="icon-box-style2 icon-box-style2-5ca211f9bfbca tal">
                                     <i className="free-basic-ui-elements-up-arrow"></i>
                                     <h5 className="h">
-                                        <span>Forward</span> Contracts
+                                        <Trans i18nKey="ourServices.forwardContracts.title" ns="services">
+                                            <span>Forward</span> Contracts
+                                        </Trans>
                                     </h5>
-                                    <div className="desc">Lock in today's rate for future payments, safeguarding against currency
-                                        fluctuations. Ideal for budgeting and financial planning, forward contracts can be set up to
-                                        three years ahead, providing stability and peace of mind.</div>
+                                    <div className="desc">{t('ourServices.forwardContracts.description')}</div>
                                 </div>
                             </div>
                             <div className="col-12 col-sm-6 col-md-4 col-lg-4">
                                 <div data-aos="fade-up" data-aos-delay="400" className="icon-box-style2 icon-box-style2-5ca2121a5a231 tal">
                                     <i className="base-icon-shopping-bag"></i>
                                     <h5 className="h">
-                                        <span>Market</span> Orders
+                                        <Trans i18nKey="ourServices.marketOrders.title" ns="services">
+                                            <span>Market</span> Orders
+                                        </Trans>
                                     </h5>
-                                    <div className="desc">Our suite of solutions strategically reduces risk, ensures forward planning
-                                        for payments, and capitalizes on favorable market rates.</div>
+                                    <div className="desc">{t('ourServices.marketOrders.description')}</div>
                                 </div>
                             </div>
-                            <div className=" col-12 col-sm-6 col-md-4 col-lg-4">
+                            <div className="col-12 col-sm-6 col-md-4 col-lg-4">
                                 <div data-aos="fade-up" data-aos-delay="200" className="icon-box-style2 icon-box-style2- tal">
                                     <i className="essential-set-hold"></i>
                                     <h5 className="h">
-                                        <span>Stop-Loss</span> Order
+                                        <Trans i18nKey="ourServices.stopLossOrder.title" ns="services">
+                                            <span>Stop-Loss</span> Order
+                                        </Trans>
                                     </h5>
-                                    <div className="desc">Protect your investments with a predetermined minimum rate, preventing
-                                        potential losses.</div>
+                                    <div className="desc">{t('ourServices.stopLossOrder.description')}</div>
                                 </div>
                             </div>
-                            <div className=" col-12 col-sm-6 col-md-4 col-lg-4">
+                            <div className="col-12 col-sm-6 col-md-4 col-lg-4">
                                 <div data-aos="fade-up" data-aos-delay="400" className="icon-box-style2 icon-box-style2-5ca212346cb4e tal">
                                     <i className="essential-set-flag-2"></i>
                                     <h5 className="h">
-                                        <span>Limit</span> Order
+                                        <Trans i18nKey="ourServices.limitOrder.title" ns="services">
+                                            <span>Limit</span> Order
+                                        </Trans>
                                     </h5>
-                                    <div className="desc">Set your desired rate, and we execute the trade when the market aligns,
-                                        maximizing your financial strategy.</div>
+                                    <div className="desc">{t('ourServices.limitOrder.description')}</div>
                                 </div>
                             </div>
-                            <div className=" col-12 col-sm-6 col-md-4 col-lg-4">
+                            <div className="col-12 col-sm-6 col-md-4 col-lg-4">
                                 <div data-aos="fade-up" data-aos-delay="600" className="icon-box-style2 icon-box-style2-5ca212538f84f tal">
                                     <i className="essential-set-exit-1"></i>
-                                    <h5 className="h">Orders-<span>Cancels</span>-Order</h5>
-                                    <div className="desc">Combine limit and stop-loss orders for comprehensive market engagement,
-                                        ensuring you strike the best balance between ambition and security.</div>
+                                    <h5 className="h">
+                                        <Trans i18nKey="ourServices.ordersCancelsOrder.title" ns="services">
+                                            Orders-<span>Cancels</span>-Order
+                                        </Trans>
+                                    </h5>
+                                    <div className="desc">{t('ourServices.ordersCancelsOrder.description')}</div>
                                 </div>
                             </div>
                         </div>
@@ -186,7 +195,7 @@ function OurServices() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 function FAQ() {
@@ -198,7 +207,7 @@ function FAQ() {
                 <div className="vc_column-inner">
                     <div className="wpb_wrapper">
                         <div className="heading-block heading-5ca2f0f8df54b tac h-h3 vc_custom_1554182416474">
-                            <div className="sub-h">{t('faq.subtitle')}</div>
+                            <div className="sub-h">f.a.q.</div>
                             <h3 className="h">{t('faq.title')}</h3>
                         </div>
                     </div>
