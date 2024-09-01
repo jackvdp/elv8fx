@@ -1,0 +1,43 @@
+{
+    "lion": {
+        "heading": "<0>Elev8</0> – fusionner fintech & conseil<br/><1>Le meilleur des deux mondes</1>",
+        "description": "Chez Elev8, nous redéfinissons le change avec transparence, service personnalisé et engagement envers votre succès. Découvrez des transactions fluides et sans souci adaptées à votre histoire unique.",
+        "business": "Entreprise",
+        "personal": "Personnel"
+    },
+    "services": {
+        "londonAlt": "Londres",
+        "subHeading": "SERVICES FX SPÉCIALISÉS",
+        "heading": "Votre stratégie mondiale <1>FX</1>,<3> Élevée</3>",
+        "strategicInsights": {
+            "title": "Aperçus <1>Stratégiques</1>",
+            "description": "Naviguez sur les marchés des devises en toute confiance. Notre analyse approfondie et notre prévoyance stratégique vous positionnent pour le succès."
+        },
+        "tailoredSolutions": {
+            "title": "Solutions <1>Sur Mesure</1>",
+            "description": "Des stratégies FX personnalisées qui s'alignent sur vos objectifs uniques. Nous fournissons les outils et l'expertise pour vous permettre de prospérer."
+        },
+        "secureTransactions": {
+            "title": "<0>Transactions</0> Sécurisées",
+            "description": "Votre tranquillité d'esprit est primordiale. Profitez de nos mesures de sécurité robustes garantissant des transactions FX sûres et efficaces."
+        },
+        "clientCentricSupport": {
+            "title": "Support <1>Axé sur le Client</1>",
+            "description": "Votre vision est notre mission. Attendez-vous à un soutien et des conseils inégalés à chaque étape du chemin."
+        }
+    },
+    "numbers": {
+        "subHeading": "Expertise FX Ciblée",
+        "heading": "<0>Solutions</0> de Précision au cœur du service.",
+        "transacted": "32 milliards de dollars transigés l'année dernière",
+        "regulated": "Nos partenaires sont entièrement réglementés dans 21 pays",
+        "currencies": "Supporte 41 devises",
+        "countries": "Paiements vers plus de 150 pays",
+        "satelliteAlt": "satellite"
+    },
+    "contact": {
+        "subHeading": "Contactez-nous",
+        "heading": "Discutons <1>ensemble!</1>",
+        "buttonText": "Contactez-nous"
+    }
+}

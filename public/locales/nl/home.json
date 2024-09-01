@@ -1,0 +1,43 @@
+{
+    "lion": {
+        "heading": "<0>Elev8</0> – fintech & consultancy combineren<br/><1>Het beste van twee werelden</1>",
+        "description": "Bij Elev8 herdefiniëren we valutahandel met transparantie, gepersonaliseerde service en een toewijding aan uw succes. Ontdek naadloze, zorgeloze transacties die zijn afgestemd op uw unieke verhaal.",
+        "business": "Zakelijk",
+        "personal": "Persoonlijk"
+    },
+    "services": {
+        "londonAlt": "Londen",
+        "subHeading": "GESPECIALISEERDE FX-DIENSTEN",
+        "heading": "Uw wereldwijde <1>FX</1> Strategie,<3> Verhoogd</3>",
+        "strategicInsights": {
+            "title": "Strategische <1>Inzichten</1>",
+            "description": "Navigeer met vertrouwen door de valutamarkten. Onze diepgaande analyse en strategische vooruitziendheid positioneren u voor succes."
+        },
+        "tailoredSolutions": {
+            "title": "Op Maat Gemaakte <1>Oplossingen</1>",
+            "description": "Aangepaste FX-strategieën die zijn afgestemd op uw unieke doelstellingen. Wij bieden de tools en expertise om te gedijen."
+        },
+        "secureTransactions": {
+            "title": "<0>Veilige</0> Transacties",
+            "description": "Uw gemoedsrust is van het grootste belang. Profiteer van onze robuuste beveiligingsmaatregelen die zorgen voor veilige en efficiënte FX-transacties."
+        },
+        "clientCentricSupport": {
+            "title": "Klantgerichte <1>Ondersteuning</1>",
+            "description": "Uw visie is onze missie. Verwacht ongeëvenaarde ondersteuning en begeleiding bij elke stap van het proces."
+        }
+    },
+    "numbers": {
+        "subHeading": "FX-gericht Vakmanschap",
+        "heading": "<0>Precisie</0> oplossingen centraal in de dienstverlening.",
+        "transacted": "$32 miljard getransacteerd in het afgelopen jaar",
+        "regulated": "Onze partners zijn volledig gereguleerd in 21 landen",
+        "currencies": "Ondersteuning voor 41 valuta's",
+        "countries": "Betalingen naar meer dan 150 landen",
+        "satelliteAlt": "satelliet"
+    },
+    "contact": {
+        "subHeading": "Neem Contact Op",
+        "heading": "Laten we <1>praten!</1>",
+        "buttonText": "Neem Contact Op"
+    }
+}

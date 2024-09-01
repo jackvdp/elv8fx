@@ -1,0 +1,43 @@
+{
+    "lion": {
+        "heading": "<0>Elev8</0> – combinando fintech & consulenza<br/><1>Il meglio di entrambi i mondi</1>",
+        "description": "In Elev8, ridefiniamo il cambio valuta con trasparenza, servizio personalizzato e un impegno per il vostro successo. Scopri transazioni senza problemi, su misura per la tua storia unica.",
+        "business": "Business",
+        "personal": "Personale"
+    },
+    "services": {
+        "londonAlt": "Londra",
+        "subHeading": "SERVIZI FX SPECIALIZZATI",
+        "heading": "La tua strategia globale <1>FX</1>,<3> Elevata</3>",
+        "strategicInsights": {
+            "title": "Approfondimenti <1>Strategici</1>",
+            "description": "Naviga nei mercati valutari con fiducia. La nostra analisi approfondita e la nostra lungimiranza strategica ti posizionano per il successo."
+        },
+        "tailoredSolutions": {
+            "title": "Soluzioni <1>Personalizzate</1>",
+            "description": "Strategie FX personalizzate che si allineano ai tuoi obiettivi unici. Forniamo gli strumenti e l'esperienza per prosperare."
+        },
+        "secureTransactions": {
+            "title": "<0>Transazioni</0> Sicure",
+            "description": "La tua tranquillità è fondamentale. Approfitta delle nostre misure di sicurezza robuste che garantiscono transazioni FX sicure ed efficienti."
+        },
+        "clientCentricSupport": {
+            "title": "Supporto <1>Client-Centrico</1>",
+            "description": "La tua visione è la nostra missione. Aspettati supporto e guida senza pari in ogni fase del percorso."
+        }
+    },
+    "numbers": {
+        "subHeading": "Esperienza FX Focalizzata",
+        "heading": "<0>Soluzioni</0> di Precisione al centro del servizio.",
+        "transacted": "32 miliardi di dollari transati nell'ultimo anno",
+        "regulated": "I nostri partner sono pienamente regolamentati in 21 Paesi",
+        "currencies": "Supporta 41 valute",
+        "countries": "Pagamenti in oltre 150 paesi",
+        "satelliteAlt": "satellite"
+    },
+    "contact": {
+        "subHeading": "Contattaci",
+        "heading": "Parliamo <1>insieme!</1>",
+        "buttonText": "Contattaci"
+    }
+}

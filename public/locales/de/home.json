@@ -1,0 +1,43 @@
+{
+    "lion": {
+        "heading": "<0>Elev8</0> – verbindet Fintech & Beratung<br/><1>Das Beste aus beiden Welten</1>",
+        "description": "Bei Elev8 definieren wir den Devisenhandel neu – mit Transparenz, personalisiertem Service und einem Engagement für Ihren Erfolg. Entdecken Sie nahtlose, sorgenfreie Transaktionen, die auf Ihre einzigartige Geschichte zugeschnitten sind.",
+        "business": "Geschäftlich",
+        "personal": "Persönlich"
+    },
+    "services": {
+        "londonAlt": "London",
+        "subHeading": "SPEZIALISIERTE FX-DIENSTLEISTUNGEN",
+        "heading": "Ihre globale <1>FX</1> Strategie,<3> Erhöht</3>",
+        "strategicInsights": {
+            "title": "Strategische <1>Einblicke</1>",
+            "description": "Navigieren Sie mit Vertrauen durch die Währungsmärkte. Unsere tiefgreifende Analyse und strategische Weitsicht positionieren Sie für den Erfolg."
+        },
+        "tailoredSolutions": {
+            "title": "Maßgeschneiderte <1>Lösungen</1>",
+            "description": "Individuelle FX-Strategien, die sich an Ihre einzigartigen Ziele anpassen. Wir bieten Ihnen die Werkzeuge und das Fachwissen, um zu gedeihen."
+        },
+        "secureTransactions": {
+            "title": "<0>Sichere</0> Transaktionen",
+            "description": "Ihre Ruhe ist entscheidend. Profitieren Sie von unseren robusten Sicherheitsmaßnahmen, die sichere und effiziente FX-Transaktionen gewährleisten."
+        },
+        "clientCentricSupport": {
+            "title": "Kundenorientierter <1>Support</1>",
+            "description": "Ihre Vision ist unsere Mission. Erwarten Sie unübertroffene Unterstützung und Beratung auf jedem Schritt des Weges."
+        }
+    },
+    "numbers": {
+        "subHeading": "FX-Fokussierte Expertise",
+        "heading": "<0>Präzision</0> Lösungen im Kern des Service.",
+        "transacted": "$32 Mrd. im letzten Jahr abgewickelt",
+        "regulated": "Unsere Partner sind in 21 Ländern vollständig reguliert",
+        "currencies": "Unterstützung für 41 Währungen",
+        "countries": "Zahlungen in über 150 Länder",
+        "satelliteAlt": "Satellit"
+    },
+    "contact": {
+        "subHeading": "Kontaktieren Sie uns",
+        "heading": "Lassen Sie uns <1>sprechen!</1>",
+        "buttonText": "Kontaktieren Sie uns"
+    }
+}
