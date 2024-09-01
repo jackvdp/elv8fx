@@ -1,0 +1,46 @@
+{
+    "lion": {
+        "heading": "<0>Elev8</0> – blending fintech & consultancy<br/><1>Best of both worlds</1>",
+        "description": "At Elev8, we redefine foreign exchange with transparency, personalised service, and a commitment to your success. Discover seamless, worry-free transactions tailored to your unique story.",
+        "business": "Business",
+        "personal": "Personal"
+    },
+    "services": {
+        "londonAlt": "London",
+        "subHeading": "SPECIALISED FX SERVICES",
+        "heading": "Your Global <1>FX</1> Strategy,<3> Elevated</3>",
+        "strategicInsights": {
+            "title": "Strategic <1>Insights</1>",
+            "description": "Navigate currency markets with confidence. Our in-depth analysis and strategic foresight position you for success."
+        },
+        "tailoredSolutions": {
+            "title": "Tailored <1>Solutions</1>",
+            "description": "Customised FX strategies that align with your unique objectives. We provide the tools and expertise for you to thrive."
+        },
+        "secureTransactions": {
+            "title": "<0>Secure</0> Transactions",
+            "description": "Your peace of mind is paramount. Benefit from our robust security measures ensuring safe and efficient FX transactions."
+        },
+        "clientCentricSupport": {
+            "title": "Client-Centric <1>Support</1>",
+            "description": "Your vision is our mission. Expect unparalleled support and guidance every step of the way."
+        }
+    },
+    "numbers": {
+        "subHeading": "FX Focused Expertise",
+        "heading": "<0>Precision</0> solutions at the core of the service.",
+        "transacted": "Transacted $32bn in the last year",
+        "regulated": "Our partners are fully regulated in 21 Countries",
+        "currencies": "Support 41 currencies",
+        "countries": "Payments to over 150 countries",
+        "satelliteAlt": "satellite"
+    },
+    "contact": {
+        "subHeading": "Contact Us",
+        "heading": "Let's <1>Talk!</1>",
+        "phone": "+44 (0) 20 4580 1415",
+        "email": "info@elev8exchange.com",
+        "address": "1 Moor Place<br />1 Fore Street Avenue<br/> London<br/> EC2Y 9DT!",
+        "buttonText": "Contact Us"
+    }
+}
