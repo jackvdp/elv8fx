@@ -1,0 +1,16 @@
+{
+    "title": "Sicurezza & Regolamentazione",
+    "sections": {
+        "securityComplianceTitle": "Sicurezza & Conformità",
+        "securityComplianceText": "Prendiamo molto sul serio la sicurezza dei tuoi dati e delle tue finanze, assicurandoci che i nostri processi e sistemi siano rigorosamente esaminati e aggiornati per mantenere un ambiente sicuro.",
+        "regulatoryStandardsTitle": "Standard Regolamentari",
+        "regulatoryStandardsText": "Le nostre operazioni aderiscono a elevati standard regolamentari, garantendo che tutte le attività finanziarie siano condotte con integrità e trasparenza.",
+        "liquidityProvidersText": "Tutti i nostri fornitori di liquidità sono regolamentati dalla FCA come istituti di moneta elettronica.",
+        "safeguardingFundsTitle": "Protezione dei Fondi",
+        "safeguardingFundsText": "Diamo priorità alla protezione dei fondi dei clienti, mantenendoli su conti separati presso istituti finanziari di fiducia per garantirne la sicurezza.",
+        "accessControlTitle": "Controllo degli Accessi Robusto",
+        "accessControlText": "La nostra architettura di sicurezza avanzata include accessi basati su autorizzazioni e autenticazione multi-fattore, fornendo un accesso sicuro e monitorato ai nostri sistemi.",
+        "privacyCommitmentTitle": "Impegno per la Privacy",
+        "privacyCommitmentText": "Adottiamo rigorosi protocolli di protezione dei dati, allineando le nostre pratiche con le principali normative sulla sicurezza dei dati per salvaguardare le informazioni personali."
+    }
+}
