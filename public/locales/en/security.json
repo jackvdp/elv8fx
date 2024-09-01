@@ -1,0 +1,16 @@
+{
+    "title": "Security & Regulation",
+    "sections": {
+        "securityComplianceTitle": "Security & Compliance",
+        "securityComplianceText": "We take the security of your data and finances seriously, ensuring our processes and systems are rigorously reviewed and updated to maintain a secure environment.",
+        "regulatoryStandardsTitle": "Regulatory Standards",
+        "regulatoryStandardsText": "Our operations adhere to high regulatory standards, ensuring that all financial activities are conducted with integrity and transparency.",
+        "liquidityProvidersText": "All of our liquidity providers are FCA regulated as e-money institutions.",
+        "safeguardingFundsTitle": "Safeguarding Funds",
+        "safeguardingFundsText": "We prioritize the protection of customer funds, holding them in separate accounts with trusted financial institutions to ensure they are secure.",
+        "accessControlTitle": "Robust Access Control",
+        "accessControlText": "Our advanced security architecture includes permission-based access and multi-factor authentication, providing secure and monitored entry into our systems.",
+        "privacyCommitmentTitle": "Commitment to Privacy",
+        "privacyCommitmentText": "We adhere to strict data protection protocols, aligning our practices with leading data security regulations to safeguard personal information."
+    }
+}

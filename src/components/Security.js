@@ -3,8 +3,10 @@ import NavBar from './resuables/NavBar';
 import MouseCursor from './resuables/MouseCursor';
 import Preloader from './resuables/Preloader';
 import Footer from "./resuables/Footer";
+import { useTranslation } from "react-i18next";
 
 export default function Security() {
+    const { t } = useTranslation('security');
     return (
         <body
             className="page-template page-template-template-landing page-template-template-landing-php page page-id-783 unknown preloader-true header-container header-light header-logo-left header-space-true right-click-disable-false mobile-images-false custom-cursor-true hide-popup-download-link wpb-js-composer js-comp-ver-7.4 vc_responsive">
@@ -24,28 +26,26 @@ export default function Security() {
                                     <div className="vc_column-inner vc_custom_1707296244897" >
                                         <div className="wpb_wrapper">
                                             <div className="heading-block heading-5c99cd7d59d6e tal h-h5">
-                                                <h5 className="h">Security &amp; Regulation</h5>
+                                                <h5 className="h">{t('title')}</h5>
                                             </div>
 
-                                            <div className="wpb_text_column wpb_content_element ">
+                                            <div className="wpb_text_column wpb_content_element">
                                                 <div className="wpb_wrapper">
-                                                    <p><strong>Security &amp; Compliance</strong></p>
-                                                    <p>We take the security of your data and finances seriously, ensuring our processes and systems
-                                                        are rigorously reviewed and updated to maintain a secure environment.</p>
-                                                    <p><strong>Regulatory Standards</strong></p>
-                                                    <p>Our operations adhere to high regulatory standards, ensuring that all financial activities are
-                                                        conducted with integrity and transparency.</p>
-                                                    <p>All of our liquidity providers are FCA regulated as e-money institutions.</p>
-                                                    <p><strong>Safeguarding Funds</strong></p>
-                                                    <p>We prioritize the protection of customer funds, holding them in separate accounts with trusted
-                                                        financial institutions to ensure they are secure.</p>
-                                                    <p><strong>Robust Access Control</strong></p>
-                                                    <p>Our advanced security architecture includes permission-based access and multi-factor
-                                                        authentication, providing secure and monitored entry into our systems.</p>
-                                                    <p><strong>Commitment to Privacy</strong></p>
-                                                    <p>We adhere to strict data protection protocols, aligning our practices with leading data
-                                                        security regulations to safeguard personal information.</p>
+                                                    <p><strong>{t('sections.securityComplianceTitle')}</strong></p>
+                                                    <p>{t('sections.securityComplianceText')}</p>
 
+                                                    <p><strong>{t('sections.regulatoryStandardsTitle')}</strong></p>
+                                                    <p>{t('sections.regulatoryStandardsText')}</p>
+                                                    <p>{t('sections.liquidityProvidersText')}</p>
+
+                                                    <p><strong>{t('sections.safeguardingFundsTitle')}</strong></p>
+                                                    <p>{t('sections.safeguardingFundsText')}</p>
+
+                                                    <p><strong>{t('sections.accessControlTitle')}</strong></p>
+                                                    <p>{t('sections.accessControlText')}</p>
+
+                                                    <p><strong>{t('sections.privacyCommitmentTitle')}</strong></p>
+                                                    <p>{t('sections.privacyCommitmentText')}</p>
                                                 </div>
                                             </div>
                                         </div>
