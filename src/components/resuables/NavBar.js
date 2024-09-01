@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 export default function NavBar() {
@@ -10,6 +10,13 @@ export default function NavBar() {
     };
 
     const currentLanguage = typeof i18n.language === 'string' ? i18n.language.toUpperCase() : 'EN';
+
+    useEffect(() => {
+        const currentLangauge = i18n.language.toLowerCase()
+        if (!languages.includes(currentLangauge)) {
+            i18n.changeLanguage("en")
+        }
+    }, []);
 
     return (
         <div className="site-header light-color">
