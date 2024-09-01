@@ -1,0 +1,18 @@
+{
+    "title": "Quejas",
+    "complaints": {
+        "intro": "Entendemos la importancia de abordar sus preocupaciones de manera rápida y efectiva. A continuación se presenta un resumen de nuestro proceso de manejo de quejas:",
+        "howToSubmitTitle": "Cómo Presentar una Queja",
+        "howToSubmitText": "Por favor, envíe su queja por correo electrónico a info@elev8exchange.com o llámenos al +44 (0) 20 4580 1415.",
+        "timelinesTitle": "Plazos",
+        "timelinesText": "Nuestro objetivo es reconocer su queja dentro de las 24 horas y proporcionar una resolución dentro de los 15 días posteriores a la recepción.",
+        "infoRequiredTitle": "Información Requerida",
+        "infoRequiredText": "Describa el problema en detalle, incluyendo cualquier fecha, hora y el resultado que desea.",
+        "financialOmbudsman": "<0>Contactar al Servicio del Defensor del Pueblo Financiero (FOS)</0>: Si no está satisfecho con la resolución proporcionada, tiene la opción de acudir al FOS. El FOS ofrece un servicio de revisión independiente. Los detalles de contacto del FOS y más información se pueden encontrar <1>aquí</1>.",
+        "additionalInfo": "<0>Información Adicional</0>: Somos su primer punto de contacto para cualquier consulta o preocupación, incluidas las quejas. Manejamos estas quejas de acuerdo con nuestro proceso de quejas, asegurando que Currencycloud, quien le proporciona servicios regulados de Pagos y Dinero Electrónico, esté informado. Ellos supervisan nuestro proceso para asegurar el cumplimiento con los estándares regulatorios. Si su queja no ha sido reconocida o tratada satisfactoriamente, puede encontrar la información de quejas de Currencycloud <1>aquí</1>.",
+        "safeguarding": "Este proceso de salvaguarda asegura que sus fondos estén siempre seguros y disponibles, reflejando nuestro compromiso de proporcionar un servicio confiable y transparente. Al asociarnos con Currencycloud, nos adherimos a los más altos estándares regulatorios, brindándole la tranquilidad de que su dinero está en buenas manos.",
+        "partners": "Trabajamos con socios institucionales de dinero electrónico y pagos para brindarle nuestro servicio, a saber, Currencycloud, Ebury, Equals Money y Sciopay. Currencycloud finalmente le proporciona servicios regulados de pagos y dinero electrónico en el Reino Unido, la UE y los EE.UU. Ebury, Equals Money y Sciopay le proporcionan servicios regulados de pagos y dinero electrónico en el Reino Unido, la UE y los EE.UU.",
+        "obligations": "Estos socios tienen ciertas obligaciones como instituciones de servicios financieros regulados, incluyendo en torno a las quejas. Los mantenemos informados de las quejas que recibimos de usted con respecto a los servicios regulados de pagos y dinero electrónico que ellos le proporcionan. Ellos supervisan cómo manejamos las quejas para asegurarse de que lo hacemos conforme al estándar requerido bajo las regulaciones.",
+        "complaintHandling": "Sin embargo, si por alguna razón su queja con respecto a sus servicios de pagos y dinero electrónico no ha sido reconocida o tratada por nosotros, o si tiene preocupaciones sobre la forma en que ha sido manejada, la información de quejas de Currencycloud se puede encontrar <1>aquí</1>, y la de <3>Ebury</3>, <5>Equals Money</5>, y <7>Sciopay</7> se pueden encontrar aquí."
+    }
+}
