@@ -1,0 +1,59 @@
+{
+    "header": {
+        "subtitle": "Dienstleistungen",
+        "title": "Maßgeschneiderte FX-Lösungen - Navigieren Sie durch Ihre <1>finanziellen Horizonte</1>"
+    },
+    "faq": {
+        "title": "Häufig gestellte Fragen",
+        "questions": {
+            "fees": {
+                "question": "Was sind die Gebühren?",
+                "answer": "Wir erheben keine zusätzlichen Gebühren, Sie zahlen den vereinbarten Preis, und wir leiten die Zahlung für Sie weiter."
+            },
+            "openAccount": {
+                "question": "Wie eröffne ich ein Konto?",
+                "answer": "Die Kontoeröffnung erfolgt über unser Online-Bewerbungsformular, dies ist kostenlos und verpflichtet Sie nicht, unseren Service zu nutzen."
+            },
+            "safeguarding": {
+                "question": "Wie werden meine Gelder geschützt?",
+                "answer": "Wir arbeiten mit Zahlungsdienstleistern zusammen, um sicherzustellen, dass Ihre Gelder mit größter Sorgfalt behandelt werden. Unsere Partner setzen robuste Sicherheitsmaßnahmen ein, einschließlich der Verwahrung von Kundengeldern auf getrennten Konten, die von ihren eigenen Betriebskonten getrennt sind, um die Sicherheit und Effizienz Ihrer Transaktionen zu erhöhen."
+            },
+            "trackPayments": {
+                "question": "Kann ich meine Zahlungen verfolgen?",
+                "answer": "Ja, wir haben eine Echtzeit-GPI-Tracking-Funktion in das System integriert, sodass wir bei einer Überweisung über SWIFT genau sehen können, wo sich Ihre Gelder ab dem Moment befinden, in dem Sie eine Zahlung einrichten."
+            },
+            "fixRate": {
+                "question": "Kann ich einen Kurs festlegen, um potenzielle Verluste zu minimieren?",
+                "answer": "Ja, Sie werden einem erfahrenen Trader zugewiesen, der Ihnen hilft, Ihr FX-Risiko mit allen Währungsinstrumenten, die wir anbieten, zu managen. Wir verwenden Werkzeuge wie Forwards, Limit Orders, Stop-Loss Orders, Order Cancels Orders und viele mehr."
+            }
+        }
+    },
+    "ourServices": {
+        "subtitle": "Was wir tun",
+        "title": "Dienstleistungen",
+        "spotContracts": {
+            "title": "<0>Spot</0> Verträge",
+            "description": "Sichern Sie sich den heutigen Wechselkurs und schließen Sie die Zahlung innerhalb von drei Geschäftstagen für die taggleiche Verarbeitung ab. Jede Transaktion wird mit einer Bestätigung versehen, um Klarheit und Zuverlässigkeit bei jedem Austausch zu gewährleisten."
+        },
+        "forwardContracts": {
+            "title": "<0>Forward</0> Verträge",
+            "description": "Sichern Sie sich den heutigen Kurs für zukünftige Zahlungen und schützen Sie sich vor Währungsschwankungen. Ideal für die Budgetierung und Finanzplanung, können Forward-Verträge bis zu drei Jahre im Voraus eingerichtet werden, um Stabilität und Sicherheit zu bieten."
+        },
+        "marketOrders": {
+            "title": "<0>Markt</0> Aufträge",
+            "description": "Unser Lösungsportfolio reduziert strategisch das Risiko, sorgt für eine vorausschauende Planung von Zahlungen und nutzt günstige Marktbedingungen."
+        },
+        "stopLossOrder": {
+            "title": "<0>Stop-Loss</0> Auftrag",
+            "description": "Schützen Sie Ihre Investitionen mit einem vorher festgelegten Mindestkurs und verhindern Sie potenzielle Verluste."
+        },
+        "limitOrder": {
+            "title": "<0>Limit</0> Auftrag",
+            "description": "Setzen Sie Ihren gewünschten Kurs fest, und wir führen den Handel aus, wenn der Markt darauf abgestimmt ist, und maximieren so Ihre Finanzstrategie."
+        },
+        "ordersCancelsOrder": {
+            "title": "Orders-<1>Cancels</1>-Order",
+            "description": "Kombinieren Sie Limit- und Stop-Loss-Aufträge für eine umfassende Marktteilnahme und sorgen Sie so für das beste Gleichgewicht zwischen Ambition und Sicherheit."
+        }
+    }
+}

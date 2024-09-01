@@ -1,0 +1,59 @@
+{
+    "header": {
+        "subtitle": "diensten",
+        "title": "Op maat gemaakte FX-oplossingen - Navigeren door uw <1>financiële horizonten</1>"
+    },
+    "faq": {
+        "title": "Veelgestelde Vragen",
+        "questions": {
+            "fees": {
+                "question": "Wat zijn de kosten?",
+                "answer": "We brengen geen extra kosten in rekening, u betaalt de overeengekomen prijs en wij zullen de betaling voor u doorsturen."
+            },
+            "openAccount": {
+                "question": "Hoe open ik een account?",
+                "answer": "Het openen van een account gebeurt via ons online aanvraagformulier, dit is gratis en verplicht u niet om onze service te gebruiken."
+            },
+            "safeguarding": {
+                "question": "Hoe worden mijn gelden beschermd?",
+                "answer": "Wij werken samen met betalingsdienstverleners om ervoor te zorgen dat uw gelden met de grootste zorg worden behandeld. Onze partners passen robuuste beveiligingsmaatregelen toe, waaronder het aanhouden van klantgelden op gescheiden rekeningen, gescheiden van hun eigen bedrijfsrekeningen, om de veiligheid en efficiëntie van uw transacties te verbeteren."
+            },
+            "trackPayments": {
+                "question": "Kan ik mijn betalingen volgen?",
+                "answer": "Ja, we hebben een real-time GPI-trackingfunctie ingebouwd in het systeem, zodat we, als u uw betaling via SWIFT hebt verzonden, precies kunnen zien waar uw gelden zich bevinden vanaf het moment dat u een betaling instelt."
+            },
+            "fixRate": {
+                "question": "Kan ik een tarief vastzetten om potentiële verliezen te minimaliseren?",
+                "answer": "Ja, u krijgt een toegewijde handelaar toegewezen met vele jaren ervaring die u zal helpen uw FX-blootstelling te beheren met alle valutainstrumenten die we te bieden hebben. We gebruiken tools zoals forwards, limietorders, stop-loss orders, order cancels orders en nog veel meer."
+            }
+        }
+    },
+    "ourServices": {
+        "subtitle": "wat we doen",
+        "title": "Diensten",
+        "spotContracts": {
+            "title": "<0>Spot</0> Contracten",
+            "description": "Beveilig de wisselkoers van vandaag en voltooi de betaling binnen drie werkdagen voor verwerking op dezelfde dag. Elke transactie wordt bevestigd, wat zorgt voor duidelijkheid en betrouwbaarheid bij elke uitwisseling."
+        },
+        "forwardContracts": {
+            "title": "<0>Forward</0> Contracten",
+            "description": "Leg het tarief van vandaag vast voor toekomstige betalingen, zodat u beschermd bent tegen valutaschommelingen. Ideaal voor budgettering en financiële planning, forward-contracten kunnen tot drie jaar vooruit worden afgesloten, wat stabiliteit en gemoedsrust biedt."
+        },
+        "marketOrders": {
+            "title": "<0>Markt</0> Orders",
+            "description": "Ons pakket aan oplossingen vermindert strategisch het risico, zorgt voor vooruitziende planning van betalingen en maakt gebruik van gunstige markttarieven."
+        },
+        "stopLossOrder": {
+            "title": "<0>Stop-Loss</0> Order",
+            "description": "Bescherm uw investeringen met een vooraf bepaald minimumtarief, waardoor potentiële verliezen worden voorkomen."
+        },
+        "limitOrder": {
+            "title": "<0>Limiet</0> Order",
+            "description": "Stel uw gewenste tarief in, en wij voeren de handel uit wanneer de markt erop aansluit, wat uw financiële strategie maximaliseert."
+        },
+        "ordersCancelsOrder": {
+            "title": "Orders-<1>Annuleert</1>-Order",
+            "description": "Combineer limiet- en stop-loss orders voor een uitgebreide marktbenadering, zodat u het beste evenwicht vindt tussen ambitie en veiligheid."
+        }
+    }
+}

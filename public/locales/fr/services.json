@@ -1,0 +1,59 @@
+{
+    "header": {
+        "subtitle": "services",
+        "title": "Solutions FX sur mesure - Naviguer dans vos <1>horizons financiers</1>"
+    },
+    "faq": {
+        "title": "Questions Fréquemment Posées",
+        "questions": {
+            "fees": {
+                "question": "Quels sont les frais?",
+                "answer": "Nous n'ajoutons aucun frais, vous payez le montant convenu et nous effectuons le paiement pour vous."
+            },
+            "openAccount": {
+                "question": "Comment ouvrir un compte?",
+                "answer": "L'ouverture d'un compte se fait via notre formulaire de candidature en ligne, c'est gratuit et ne vous engage pas à utiliser nos services."
+            },
+            "safeguarding": {
+                "question": "Comment mon argent est-il protégé?",
+                "answer": "Nous travaillons avec des prestataires de services de paiement pour garantir que vos fonds sont traités avec le plus grand soin. Nos partenaires emploient des mesures de sécurité robustes, y compris la conservation des fonds des clients sur des comptes séparés de leurs propres comptes opérationnels, afin d'améliorer la sécurité et l'efficacité de vos transactions."
+            },
+            "trackPayments": {
+                "question": "Puis-je suivre mes paiements?",
+                "answer": "Oui, nous avons une fonction de suivi GPI en temps réel intégrée dans le système, de sorte que si vous avez envoyé votre paiement via SWIFT, nous pouvons voir exactement où se trouvent vos fonds à partir du moment où vous configurez un paiement."
+            },
+            "fixRate": {
+                "question": "Puis-je fixer un taux pour minimiser les pertes potentielles?",
+                "answer": "Oui, vous serez assigné à un trader dédié avec de nombreuses années d'expérience qui vous aidera à gérer votre exposition au FX avec tous les outils de change que nous avons à offrir. Nous utilisons des outils tels que les contrats à terme, les ordres à cours limité, les ordres stop-loss, les ordres d'annulation d'ordre et bien d'autres."
+            }
+        }
+    },
+    "ourServices": {
+        "subtitle": "ce que nous faisons",
+        "title": "Services",
+        "spotContracts": {
+            "title": "<0>Contrats</0> Spot",
+            "description": "Sécurisez le taux de change du jour et effectuez le paiement dans un délai de trois jours ouvrables pour un traitement le jour même. Chaque transaction est accompagnée d'une confirmation, garantissant clarté et fiabilité à chaque échange."
+        },
+        "forwardContracts": {
+            "title": "<0>Contrats</0> Forward",
+            "description": "Bloquez le taux d'aujourd'hui pour les paiements futurs, vous protégeant contre les fluctuations monétaires. Idéal pour la budgétisation et la planification financière, les contrats à terme peuvent être établis jusqu'à trois ans à l'avance, offrant stabilité et tranquillité d'esprit."
+        },
+        "marketOrders": {
+            "title": "<0>Ordres</0> de Marché",
+            "description": "Notre ensemble de solutions réduit stratégiquement les risques, assure une planification anticipée des paiements et capitalise sur les taux de marché favorables."
+        },
+        "stopLossOrder": {
+            "title": "<0>Ordre</0> Stop-Loss",
+            "description": "Protégez vos investissements avec un taux minimum prédéterminé, empêchant les pertes potentielles."
+        },
+        "limitOrder": {
+            "title": "<0>Ordre</0> à Limite",
+            "description": "Définissez votre taux souhaité, et nous exécutons l'échange lorsque le marché s'aligne, maximisant ainsi votre stratégie financière."
+        },
+        "ordersCancelsOrder": {
+            "title": "Ordres-<1>Annule</1>-Ordre",
+            "description": "Combinez des ordres à cours limité et des ordres stop-loss pour une implication complète sur le marché, garantissant ainsi le meilleur équilibre entre ambition et sécurité."
+        }
+    }
+}
