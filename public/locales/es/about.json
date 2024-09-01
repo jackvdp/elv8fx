@@ -1,0 +1,41 @@
+{
+    "header": {
+        "subHeading": "Sobre nosotros",
+        "title": "Creemos que nuestro<br />trabajo crea valor<br />compartido para <5>clientes</5>",
+        "buttonText": "Nuestros Servicios"
+    },
+    "numbers": {
+        "regulated": "Nuestros socios están completamente regulados en 21 países",
+        "transacted": "Transaccionado $32bn en el último año",
+        "countries": "Pagos a más de 150 países",
+        "currencies": "Soporte para 41 monedas"
+    },
+    "tabs": {
+        "purpose": {
+            "title": "Nuestro Propósito",
+            "description": "Embárcate en un viaje con Elev8, donde tu experiencia en cambio de divisas es tan única como tus objetivos financieros. Nuestra experiencia es la piedra angular de nuestra identidad, no solo como una entidad financiera, sino como tu aliado de confianza en las finanzas globales. Nuestra presencia sostenida en el mercado refleja nuestra dedicación a la excelencia en el servicio y los lazos duraderos que forjamos con cada uno de nuestros clientes."
+        },
+        "success": {
+            "title": "Construyendo Éxito Juntos",
+            "description": "Elev8 se construye sobre una integridad inquebrantable, un principio esencial en todos nuestros esfuerzos. Guiados por nuestros Socios Senior, infundimos cada servicio con profesionalismo y un toque personal, esforzándonos por los mejores resultados para asegurar tu éxito continuo junto a nosotros. Este equilibrio de experiencia y atención individualizada es nuestro compromiso con tu viaje financiero."
+        },
+        "fx": {
+            "title": "FX Eficiente y Seguro",
+            "description": "Nos asociamos con proveedores de servicios de pago para garantizar que tus fondos se manejen con el máximo cuidado. Nuestros socios emplean medidas de seguridad robustas, incluyendo la retención de fondos de los clientes en cuentas segregadas separadas de sus propias cuentas operativas, para mejorar la seguridad y la eficiencia de tus transacciones."
+        }
+    },
+    "team": {
+        "subHeading": "Conócenos",
+        "title": "Nuestro Equipo",
+        "members": {
+            "josh": {
+                "name": "Josh Jewson",
+                "post": "Fundador"
+            },
+            "terry": {
+                "name": "Terry Lovell",
+                "post": "Fundador"
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "header": {
+        "subHeading": "About Us",
+        "title": "We believe that our<br />work creates shared<br />value for <5>customers</5>",
+        "buttonText": "Our Services"
+    },
+    "numbers": {
+        "regulated": "Our partners are fully regulated in 21 Countries",
+        "transacted": "Transacted $32bn in the last year",
+        "countries": "Payments to over 150 countries",
+        "currencies": "Support 41 Currencies"
+    },
+    "tabs": {
+        "purpose": {
+            "title": "Our Purpose",
+            "description": "Embark on a journey with Elev8, where your foreign exchange experience is as unique as your financial goals. Our seasoned expertise is the cornerstone of our identity, not merely as a financial entity but as your trusted ally in global finance. Our sustained presence in the marketplace reflects our dedication to service excellence and the enduring bonds we forge with each of our clients."
+        },
+        "success": {
+            "title": "Building Success Together",
+            "description": "Elev8 is built on unwavering integrity, an essential principle in all our endeavours. Led by our Senior Partners, we infuse every service with both professionalism and a personal touch, striving for the finest outcomes to ensure your continued success alongside us. This balance of expertise and individualised care is our pledge to your financial journey."
+        },
+        "fx": {
+            "title": "Efficient & Secure FX",
+            "description": "We partner with payment service providers, to ensure that your funds are handled with the utmost care. Our partners employ robust security measures, including holding client funds in segregated accounts separate from their own operating accounts, to enhance the safety and efficiency of your transactions."
+        }
+    },
+    "team": {
+        "subHeading": "Get to Know Us",
+        "title": "Our Team",
+        "members": {
+            "josh": {
+                "name": "Josh Jewson",
+                "post": "Founder"
+            },
+            "terry": {
+                "name": "Terry Lovell",
+                "post": "Founder"
+            }
+        }
+    }
+}
