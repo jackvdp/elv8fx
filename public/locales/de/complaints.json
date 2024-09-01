@@ -1,0 +1,18 @@
+{
+    "title": "Beschwerden",
+    "complaints": {
+        "intro": "Wir verstehen die Bedeutung einer schnellen und effektiven Bearbeitung Ihrer Anliegen. Hier ist eine Zusammenfassung unseres Beschwerdeverfahrens:",
+        "howToSubmitTitle": "So reichen Sie eine Beschwerde ein",
+        "howToSubmitText": "Bitte senden Sie Ihre Beschwerde per E-Mail an info@elev8exchange.com oder rufen Sie uns unter +44 (0) 20 4580 1415 an.",
+        "timelinesTitle": "Zeitpläne",
+        "timelinesText": "Wir bemühen uns, Ihre Beschwerde innerhalb von 24 Stunden zu bestätigen und innerhalb von 15 Tagen nach Erhalt eine Lösung bereitzustellen.",
+        "infoRequiredTitle": "Erforderliche Informationen",
+        "infoRequiredText": "Beschreiben Sie das Problem ausführlich, einschließlich relevanter Daten, Zeiten und des gewünschten Ergebnisses.",
+        "financialOmbudsman": "<0>Kontakt zum Financial Ombudsman Service (FOS)</0>: Wenn Sie mit der angebotenen Lösung nicht zufrieden sind, haben Sie die Möglichkeit, sich an den FOS zu wenden. Der FOS bietet einen unabhängigen Prüfungsdienst an. Kontaktdaten für den FOS und weitere Informationen finden Sie <2>hier</2>.",
+        "additionalInfo": "<0>Zusätzliche Informationen</0>: Wir sind Ihre erste Anlaufstelle für Anfragen oder Anliegen, einschließlich Beschwerden. Wir bearbeiten diese Beschwerden gemäß unserem Beschwerdeprozess und stellen sicher, dass Currencycloud, das Ihnen regulierte Zahlungs- und E-Geld-Dienstleistungen bietet, informiert wird. Sie überwachen unseren Prozess, um die Einhaltung der regulatorischen Standards sicherzustellen. Wenn Ihre Beschwerde nicht anerkannt oder zufriedenstellend bearbeitet wurde, finden Sie die Beschwerdeinformationen von Currencycloud <2>hier</2>.",
+        "safeguarding": "Dieser Sicherungsprozess stellt sicher, dass Ihre Gelder immer sicher und verfügbar sind und spiegelt unser Engagement wider, einen zuverlässigen und transparenten Service zu bieten. Durch die Zusammenarbeit mit Currencycloud halten wir uns an die höchsten regulatorischen Standards, damit Sie sicher sein können, dass Ihr Geld in sicheren Händen ist.",
+        "partners": "Wir arbeiten mit Partnern im Bereich E-Geld und Zahlungsdienstleister zusammen, um Ihnen unseren Service bereitzustellen, nämlich Currencycloud, Ebury, Equals Money und Sciopay. Currencycloud bietet Ihnen letztendlich regulierte Zahlungs- und E-Geld-Dienstleistungen im Vereinigten Königreich, in der EU und in den USA an. Ebury, Equals Money und Sciopay bieten Ihnen regulierte Zahlungs- und E-Geld-Dienstleistungen im Vereinigten Königreich, in der EU und in den USA an.",
+        "obligations": "Diese Partner haben bestimmte Verpflichtungen als regulierte Finanzdienstleistungsinstitute, einschließlich in Bezug auf Beschwerden. Wir informieren sie über die Beschwerden, die wir von Ihnen in Bezug auf die regulierten Zahlungs- und E-Geld-Dienstleistungen erhalten, die sie Ihnen letztendlich bieten. Sie überwachen, wie wir Beschwerden bearbeiten, um sicherzustellen, dass wir dies gemäß den regulatorischen Anforderungen tun.",
+        "complaintHandling": "Sollte Ihre Beschwerde in Bezug auf Ihre Zahlungs- und E-Geld-Dienstleistungen aus irgendeinem Grund nicht von uns anerkannt oder bearbeitet worden sein, oder wenn Sie Bedenken hinsichtlich der Art und Weise haben, wie sie bearbeitet wurde, finden Sie die Beschwerdeinformationen von Currencycloud <1>hier</1>, und <3>Ebury</3>, <5>Equals Money</5> und <7>Sciopay</7> finden Sie hier."
+    }
+}

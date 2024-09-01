@@ -1,0 +1,18 @@
+{
+    "title": "Reclami",
+    "complaints": {
+        "intro": "Comprendiamo l'importanza di affrontare le vostre preoccupazioni in modo tempestivo ed efficace. Ecco un riepilogo del nostro processo di gestione dei reclami:",
+        "howToSubmitTitle": "Come presentare un reclamo",
+        "howToSubmitText": "Si prega di inviare il proprio reclamo via e-mail a info@elev8exchange.com o chiamare il numero +44 (0) 20 4580 1415.",
+        "timelinesTitle": "Tempistiche",
+        "timelinesText": "Ci impegniamo a confermare la ricezione del reclamo entro 24 ore e a fornire una soluzione entro 15 giorni dal ricevimento.",
+        "infoRequiredTitle": "Informazioni richieste",
+        "infoRequiredText": "Descrivere il problema in dettaglio, includendo eventuali date e orari rilevanti e il risultato desiderato.",
+        "financialOmbudsman": "<0>Contattare il Financial Ombudsman Service (FOS)</0>: Se non siete soddisfatti della soluzione fornita, avete la possibilità di rivolgervi al FOS. Il FOS offre un servizio di revisione indipendente. I dettagli di contatto per il FOS e ulteriori informazioni possono essere trovati <2>qui</2>.",
+        "additionalInfo": "<0>Informazioni aggiuntive</0>: Siamo il vostro primo punto di contatto per qualsiasi domanda o preoccupazione, inclusi i reclami. Gestiamo questi reclami in linea con il nostro processo di gestione dei reclami, assicurandoci che Currencycloud, che vi fornisce servizi di pagamento e moneta elettronica regolamentati, sia informato. Loro supervisionano il nostro processo per garantire la conformità agli standard normativi. Se il vostro reclamo non è stato riconosciuto o trattato in modo soddisfacente, potete trovare le informazioni sui reclami di Currencycloud <2>qui</2>.",
+        "safeguarding": "Questo processo di salvaguardia garantisce che i vostri fondi siano sempre sicuri e disponibili, riflettendo il nostro impegno a fornire un servizio affidabile e trasparente. Collaborando con Currencycloud, aderiamo ai più alti standard normativi, dandovi la tranquillità che il vostro denaro è in buone mani.",
+        "partners": "Collaboriamo con partner istituzionali di moneta elettronica e di pagamento per fornirvi il nostro servizio, in particolare Currencycloud, Ebury, Equals Money e Sciopay. Currencycloud vi fornisce in ultima analisi servizi di pagamento e moneta elettronica regolamentati nel Regno Unito, nell'UE e negli Stati Uniti. Ebury, Equals Money e Sciopay vi forniscono servizi di pagamento e moneta elettronica regolamentati nel Regno Unito, nell'UE e negli Stati Uniti.",
+        "obligations": "Questi partner hanno determinate obbligazioni come istituzioni finanziarie regolamentate, inclusi gli aspetti relativi ai reclami. Li teniamo informati dei reclami che riceviamo da voi riguardo ai servizi di pagamento e moneta elettronica regolamentati che loro vi forniscono in ultima analisi. Loro supervisionano il modo in cui gestiamo i reclami per garantire che lo facciamo secondo gli standard normativi richiesti.",
+        "complaintHandling": "Tuttavia, se per qualsiasi motivo il vostro reclamo riguardante i vostri servizi di pagamento e moneta elettronica non è stato riconosciuto o gestito da noi, o se avete preoccupazioni riguardo al modo in cui è stato gestito, le informazioni sui reclami di Currencycloud possono essere trovate <1>qui</1>, e <3>Ebury</3>, <5>Equals Money</5> e <7>Sciopay</7> possono essere trovate qui."
+    }
+}

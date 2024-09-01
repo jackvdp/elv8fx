@@ -1,0 +1,18 @@
+{
+    "title": "Plaintes",
+    "complaints": {
+        "intro": "Nous comprenons l'importance de répondre à vos préoccupations de manière rapide et efficace. Voici un résumé de notre processus de traitement des plaintes :",
+        "howToSubmitTitle": "Comment déposer une plainte",
+        "howToSubmitText": "Veuillez soumettre votre plainte par e-mail à info@elev8exchange.com ou nous appeler au +44 (0) 20 4580 1415.",
+        "timelinesTitle": "Délais",
+        "timelinesText": "Nous nous efforçons de reconnaître votre plainte dans les 24 heures et de fournir une solution dans les 15 jours suivant la réception.",
+        "infoRequiredTitle": "Informations requises",
+        "infoRequiredText": "Décrivez le problème en détail, y compris les dates et heures pertinentes, ainsi que le résultat que vous recherchez.",
+        "financialOmbudsman": "<0>Contact du Financial Ombudsman Service (FOS)</0> : Si vous n'êtes pas satisfait de la solution proposée, vous avez la possibilité de contacter le FOS. Le FOS propose un service de révision indépendant. Les coordonnées du FOS et plus d'informations sont disponibles <2>ici</2>.",
+        "additionalInfo": "<0>Informations supplémentaires</0> : Nous sommes votre premier point de contact pour toute question ou préoccupation, y compris les plaintes. Nous traitons ces plaintes conformément à notre processus de gestion des plaintes, en veillant à ce que Currencycloud, qui vous fournit des services de paiement et de monnaie électronique réglementés, soit informé. Ils supervisent notre processus pour garantir le respect des normes réglementaires. Si votre plainte n'a pas été reconnue ou traitée de manière satisfaisante, vous pouvez trouver les informations sur les plaintes de Currencycloud <2>ici</2>.",
+        "safeguarding": "Ce processus de protection garantit que vos fonds sont toujours sécurisés et disponibles, reflétant notre engagement à fournir un service fiable et transparent. En collaborant avec Currencycloud, nous respectons les normes réglementaires les plus élevées, vous offrant la tranquillité d'esprit que votre argent est entre de bonnes mains.",
+        "partners": "Nous travaillons avec des partenaires institutionnels de monnaie électronique et de services de paiement pour vous fournir notre service, à savoir Currencycloud, Ebury, Equals Money et Sciopay. Currencycloud vous fournit en fin de compte des services de paiement et de monnaie électronique réglementés au Royaume-Uni, dans l'UE et aux États-Unis. Ebury, Equals Money et Sciopay vous fournissent des services de paiement et de monnaie électronique réglementés au Royaume-Uni, dans l'UE et aux États-Unis.",
+        "obligations": "Ces partenaires ont certaines obligations en tant qu'institutions de services financiers réglementées, notamment en ce qui concerne les plaintes. Nous les tenons informés des plaintes que nous recevons de votre part concernant les services de paiement et de monnaie électronique réglementés qu'ils vous fournissent. Ils supervisent la manière dont nous traitons les plaintes pour garantir que nous le faisons conformément aux normes réglementaires requises.",
+        "complaintHandling": "Cependant, si pour une raison quelconque votre plainte concernant vos services de paiement et de monnaie électronique n'a pas été reconnue ou traitée par nous, ou si vous avez des préoccupations concernant la manière dont elle a été traitée, les informations sur les plaintes de Currencycloud peuvent être trouvées <1>ici</1>, et <3>Ebury</3>, <5>Equals Money</5> et <7>Sciopay</7> peuvent être trouvées ici."
+    }
+}
