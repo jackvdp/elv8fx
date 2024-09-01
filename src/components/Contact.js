@@ -4,8 +4,10 @@ import MouseCursor from './resuables/MouseCursor';
 import Preloader from './resuables/Preloader';
 import Footer from "./resuables/Footer";
 import ContactForm from "./resuables/ContactForm";
+import { useTranslation } from "react-i18next";
 
 export default function Contact() {
+    const { t } = useTranslation('contact');
 
     useEffect(() => {
         jQuery(document).ready(function (jQuery) {
@@ -65,7 +67,7 @@ export default function Contact() {
                                     <div className="vc_column-inner " >
                                         <div className="wpb_wrapper">
                                             <div className="heading-block heading-5ca2f90bb768f tal h-h2 vc_custom_1554185717393">
-                                                <h2 className="h">Contact Us</h2>
+                                                <h2 className="h">{t('title')}</h2>
                                             </div>
                                         </div>
                                     </div>
@@ -81,21 +83,21 @@ export default function Contact() {
                                             <div className="contact-row contact-row-5ca2fb3313f0b with-h">
                                                 <i className="base-icon-envelope"></i>
                                                 <div className="content">
-                                                    <div className="h">e-mail:</div>
+                                                    <div className="h">{t('emailLabel')}:</div>
                                                     <a href="mailto:info@elev8exchange.com">info@elev8exchange.com</a>
                                                 </div>
                                             </div>
                                             <div className="contact-row contact-row-5ca2fb7230dec with-h">
                                                 <i className="base-icon-phone-call"></i>
                                                 <div className="content">
-                                                    <div className="h">Phone:</div>
+                                                    <div className="h">{t('phoneLabel')}:</div>
                                                     <a href="tel:+442045801415">+44 (0) 20 4580 1415</a>
                                                 </div>
                                             </div>
                                             <div className="contact-row contact-row-5ca2fb605f3f5 with-h">
                                                 <i className="base-icon-placeholder"></i>
                                                 <div className="content">
-                                                    <div className="h">location:</div>
+                                                    <div className="h">{t('locationLabel')}:</div>
                                                     <span>1 Moor Place<br/>1 Fore Street Avenuee<br/>Londone<br/>EC2Y 9DT</span>
                                                 </div>
                                             </div>

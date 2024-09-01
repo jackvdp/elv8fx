@@ -1,0 +1,10 @@
+{
+    "thankYouMessage": "Gracias por tu mensaje. ¡Nos pondremos en contacto contigo pronto!",
+    "placeholders": {
+        "fullName": "Nombre Completo",
+        "email": "Correo Electrónico"
+    },
+    "messageLabel": "Mensaje",
+    "sendButton": "Enviar",
+    "error": "Hubo un error al enviar el formulario. Por favor, inténtalo de nuevo."
+}

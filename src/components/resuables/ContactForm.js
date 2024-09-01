@@ -1,11 +1,13 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import { useTranslation } from 'react-i18next';
 
 function ContactForm() {
     const [state, handleSubmit] = useForm(process.env.REACT_APP_FORMSPREE_ID);
+    const { t } = useTranslation('contactForm');
 
     if (state.succeeded) {
-        return <p>Thank you for your message. We'll get back to you soon!</p>;
+        return <p>{t('thankYouMessage')}</p>;
     }
 
     return (
@@ -17,7 +19,7 @@ function ContactForm() {
                         type="text"
                         name="name"
                         className="wpcf7-form-control wpcf7-text style1"
-                        placeholder="Full Name"
+                        placeholder={t('placeholders.fullName')}
                         required
                     />
                 </span>
@@ -31,7 +33,7 @@ function ContactForm() {
                         type="email"
                         name="email"
                         className="wpcf7-form-control wpcf7-text style1"
-                        placeholder="E-mail"
+                        placeholder={t('placeholders.email')}
                         required
                     />
                 </span>
@@ -39,7 +41,7 @@ function ContactForm() {
             </div>
 
             <div className="input-row">
-                <label>Message</label>
+                <label>{t('messageLabel')}</label>
                 <span className="wpcf7-form-control-wrap" data-name="message">
                     <textarea
                         id="message"
@@ -55,12 +57,12 @@ function ContactForm() {
 
             <button className="button-style1" type="submit" disabled={state.submitting}>
                 <span className="d"><span></span></span>
-                <span>Send</span>
+                <span>{t('sendButton')}</span>
             </button>
 
             {state.errors && (
                 <div className="wpcf7-response-output" aria-hidden="true">
-                    There was an error submitting the form. Please try again.
+                    {t('error')}
                 </div>
             )}
         </form>
