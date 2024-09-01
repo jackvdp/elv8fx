@@ -312,25 +312,23 @@ function Contact() {
                     <div className="contact-row contact-row-5c9b68e143866 medium">
                         <i className="base-icon-phone-call"></i>
                         <div className="content">
-                            <a href="tel:+442045801415">{t('contact.phone')}</a>
+                            <a href="tel:+442045801415">+44 (0) 20 4580 1415</a>
                         </div>
                     </div>
                     <div className="contact-row contact-row-5c9b68f2ca8cf medium">
                         <i className="base-icon-envelope"></i>
                         <div className="content">
-                            <a href="mailto:info@elev8exchange.com">{t('contact.email')}</a>
+                            <a href="mailto:info@elev8exchange.com">info@elev8exchange.com</a>
                         </div>
                     </div>
                     <div className="contact-row contact-row-5c9b68ffab193 medium">
                         <i className="base-icon-placeholder"></i>
                         <div className="content">
                             <span>
-                                <Trans i18nKey="contact.address" ns='home'>
-                                    1 Moor Place<br /> 
-                                    1 Fore Street Avenue<br /> 
-                                    London<br /> 
-                                    EC2Y 9DT
-                                </Trans>
+                                1 Moor Place<br />
+                                1 Fore Street Avenue<br />
+                                London<br />
+                                EC2Y 9DT
                             </span>
                         </div>
                     </div>
