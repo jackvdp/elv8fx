@@ -9582,6 +9582,10 @@ textarea.style1 {
   opacity: 0.5;
 }
 
+.textwidget-center-widget {
+  text-align: center;
+}
+
 /*
 - Search Form
 */
