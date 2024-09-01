@@ -1,0 +1,10 @@
+{
+    "thankYouMessage": "Vielen Dank für Ihre Nachricht. Wir werden uns in Kürze bei Ihnen melden!",
+    "placeholders": {
+        "fullName": "Vollständiger Name",
+        "email": "E-Mail"
+    },
+    "messageLabel": "Nachricht",
+    "sendButton": "Senden",
+    "error": "Beim Absenden des Formulars ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+}

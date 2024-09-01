@@ -1,0 +1,10 @@
+{
+    "thankYouMessage": "Merci pour votre message. Nous vous répondrons bientôt!",
+    "placeholders": {
+        "fullName": "Nom complet",
+        "email": "E-mail"
+    },
+    "messageLabel": "Message",
+    "sendButton": "Envoyer",
+    "error": "Une erreur s'est produite lors de la soumission du formulaire. Veuillez réessayer."
+}

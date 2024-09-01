@@ -1,0 +1,10 @@
+{
+    "thankYouMessage": "Grazie per il tuo messaggio. Ti risponderemo al più presto!",
+    "placeholders": {
+        "fullName": "Nome completo",
+        "email": "E-mail"
+    },
+    "messageLabel": "Messaggio",
+    "sendButton": "Invia",
+    "error": "Si è verificato un errore durante l'invio del modulo. Per favore riprova."
+}

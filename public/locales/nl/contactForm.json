@@ -1,0 +1,10 @@
+{
+    "thankYouMessage": "Bedankt voor uw bericht. We nemen binnenkort contact met u op!",
+    "placeholders": {
+        "fullName": "Volledige naam",
+        "email": "E-mail"
+    },
+    "messageLabel": "Bericht",
+    "sendButton": "Verzenden",
+    "error": "Er is een fout opgetreden bij het indienen van het formulier. Probeer het alstublieft opnieuw."
+}
