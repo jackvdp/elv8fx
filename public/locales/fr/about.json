@@ -1,0 +1,41 @@
+{
+    "header": {
+        "subHeading": "À propos de nous",
+        "title": "Nous croyons que notre<br />travail crée une valeur<br />partagée pour <5>les clients</5>",
+        "buttonText": "Nos Services"
+    },
+    "numbers": {
+        "regulated": "Nos partenaires sont entièrement réglementés dans 21 pays",
+        "transacted": "32 milliards de dollars transigés l'année dernière",
+        "countries": "Paiements vers plus de 150 pays",
+        "currencies": "Supporte 41 devises"
+    },
+    "tabs": {
+        "purpose": {
+            "title": "Notre objectif",
+            "description": "Embarquez pour un voyage avec Elev8, où votre expérience de change est aussi unique que vos objectifs financiers. Notre expertise éprouvée est la pierre angulaire de notre identité, non seulement en tant qu'entité financière, mais aussi en tant qu'allié de confiance dans la finance mondiale. Notre présence continue sur le marché reflète notre engagement envers l'excellence du service et les liens durables que nous forgeons avec chacun de nos clients."
+        },
+        "success": {
+            "title": "Construire le succès ensemble",
+            "description": "Elev8 repose sur une intégrité inébranlable, un principe essentiel dans toutes nos entreprises. Sous la direction de nos associés principaux, nous insufflons à chaque service à la fois professionnalisme et touche personnelle, en visant les meilleurs résultats pour garantir votre succès continu à nos côtés. Cet équilibre entre expertise et soin personnalisé est notre engagement pour votre parcours financier."
+        },
+        "fx": {
+            "title": "FX efficace et sécurisé",
+            "description": "Nous nous associons à des prestataires de services de paiement pour garantir que vos fonds sont traités avec le plus grand soin. Nos partenaires mettent en œuvre des mesures de sécurité robustes, y compris la conservation des fonds des clients dans des comptes séparés de leurs propres comptes opérationnels, afin d'améliorer la sécurité et l'efficacité de vos transactions."
+        }
+    },
+    "team": {
+        "subHeading": "Faites notre connaissance",
+        "title": "Notre équipe",
+        "members": {
+            "josh": {
+                "name": "Josh Jewson",
+                "post": "Fondateur"
+            },
+            "terry": {
+                "name": "Terry Lovell",
+                "post": "Fondateur"
+            }
+        }
+    }
+}

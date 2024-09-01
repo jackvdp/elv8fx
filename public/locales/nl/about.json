@@ -1,0 +1,41 @@
+{
+    "header": {
+        "subHeading": "Over ons",
+        "title": "Wij geloven dat ons<br />werk gedeelde<br />waarde creëert voor <5>klanten</5>",
+        "buttonText": "Onze Diensten"
+    },
+    "numbers": {
+        "regulated": "Onze partners zijn volledig gereguleerd in 21 landen",
+        "transacted": "$32 miljard verhandeld in het afgelopen jaar",
+        "countries": "Betalingen naar meer dan 150 landen",
+        "currencies": "Ondersteunt 41 valuta's"
+    },
+    "tabs": {
+        "purpose": {
+            "title": "Ons Doel",
+            "description": "Begin aan een reis met Elev8, waar uw ervaring met valutahandel net zo uniek is als uw financiële doelen. Onze jarenlange expertise is de hoeksteen van onze identiteit, niet alleen als financiële entiteit, maar ook als uw vertrouwde partner in wereldwijde financiën. Onze voortdurende aanwezigheid op de markt weerspiegelt ons streven naar uitmuntende service en de blijvende banden die we met elk van onze klanten smeden."
+        },
+        "success": {
+            "title": "Samen Succes Opbouwen",
+            "description": "Elev8 is gebouwd op onwankelbare integriteit, een essentieel principe in al onze inspanningen. Onder leiding van onze Senior Partners vullen we elke service met zowel professionaliteit als een persoonlijke touch, waarbij we streven naar de beste resultaten om uw voortdurende succes aan onze zijde te waarborgen. Deze balans tussen expertise en geïndividualiseerde zorg is ons engagement voor uw financiële reis."
+        },
+        "fx": {
+            "title": "Efficiënte en Veilige FX",
+            "description": "Wij werken samen met betalingsdienstverleners om ervoor te zorgen dat uw geld met de grootste zorg wordt behandeld. Onze partners hanteren robuuste beveiligingsmaatregelen, waaronder het bewaren van klantengelden op gescheiden rekeningen, los van hun eigen bedrijfsrekeningen, om de veiligheid en efficiëntie van uw transacties te verbeteren."
+        }
+    },
+    "team": {
+        "subHeading": "Leer ons kennen",
+        "title": "Ons Team",
+        "members": {
+            "josh": {
+                "name": "Josh Jewson",
+                "post": "Oprichter"
+            },
+            "terry": {
+                "name": "Terry Lovell",
+                "post": "Oprichter"
+            }
+        }
+    }
+}

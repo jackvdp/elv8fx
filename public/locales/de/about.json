@@ -1,0 +1,41 @@
+{
+    "header": {
+        "subHeading": "Über uns",
+        "title": "Wir glauben, dass unsere<br />Arbeit gemeinsamen<br />Wert für <5>Kunden</5> schafft",
+        "buttonText": "Unsere Dienstleistungen"
+    },
+    "numbers": {
+        "regulated": "Unsere Partner sind in 21 Ländern vollständig reguliert",
+        "transacted": "$32 Mrd. im letzten Jahr abgewickelt",
+        "countries": "Zahlungen in über 150 Länder",
+        "currencies": "Unterstützt 41 Währungen"
+    },
+    "tabs": {
+        "purpose": {
+            "title": "Unser Zweck",
+            "description": "Beginnen Sie eine Reise mit Elev8, bei der Ihre Erfahrung im Devisenhandel so einzigartig ist wie Ihre finanziellen Ziele. Unsere langjährige Expertise ist der Eckpfeiler unserer Identität, nicht nur als Finanzunternehmen, sondern als Ihr vertrauenswürdiger Partner im globalen Finanzwesen. Unsere anhaltende Präsenz auf dem Markt spiegelt unser Engagement für Service-Exzellenz und die dauerhaften Bindungen wider, die wir mit jedem unserer Kunden knüpfen."
+        },
+        "success": {
+            "title": "Gemeinsam Erfolg aufbauen",
+            "description": "Elev8 basiert auf unerschütterlicher Integrität, einem wesentlichen Prinzip in all unseren Bestrebungen. Unter der Führung unserer Senior Partner erfüllen wir jeden Service mit sowohl Professionalität als auch einer persönlichen Note, wobei wir nach den besten Ergebnissen streben, um Ihren kontinuierlichen Erfolg an unserer Seite sicherzustellen. Dieses Gleichgewicht aus Expertise und individueller Betreuung ist unser Versprechen für Ihre finanzielle Reise."
+        },
+        "fx": {
+            "title": "Effizientes und sicheres FX",
+            "description": "Wir arbeiten mit Zahlungsdienstleistern zusammen, um sicherzustellen, dass Ihre Gelder mit größter Sorgfalt behandelt werden. Unsere Partner setzen robuste Sicherheitsmaßnahmen ein, einschließlich der Aufbewahrung von Kundengeldern in getrennten Konten, die von ihren eigenen Betriebskonten getrennt sind, um die Sicherheit und Effizienz Ihrer Transaktionen zu erhöhen."
+        }
+    },
+    "team": {
+        "subHeading": "Lernen Sie uns kennen",
+        "title": "Unser Team",
+        "members": {
+            "josh": {
+                "name": "Josh Jewson",
+                "post": "Gründer"
+            },
+            "terry": {
+                "name": "Terry Lovell",
+                "post": "Gründer"
+            }
+        }
+    }
+}
