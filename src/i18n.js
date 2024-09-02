@@ -9,6 +9,7 @@ i18n
     .use(initReactI18next)
     .init({
         fallbackLng: 'en',
+        supportedLngs: ['en', 'es', 'fr', 'de', 'it', 'nl'],
         debug: true,
         ns: ['navbar', 'home'],
         defaultNS: 'navbar',
@@ -17,6 +18,11 @@ i18n
         },
         react: {
             useSuspense: false
+        },
+        detection: {
+            order: ['navigator', 'htmlTag', 'path', 'subdomain'],
+            caches: ['localStorage', 'cookie'],
+            checkWhitelist: true // This ensures only languages in supportedLngs are used
         }
     });
 
