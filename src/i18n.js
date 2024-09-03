@@ -11,7 +11,7 @@ i18n
         fallbackLng: 'en',
         supportedLngs: ['en', 'es', 'fr', 'de', 'it', 'nl'],
         debug: true,
-        ns: ['navbar', 'home'],
+        ns: ['navbar'],
         defaultNS: 'navbar',
         backend: {
             loadPath: '/locales/{{lng}}/{{ns}}.json',

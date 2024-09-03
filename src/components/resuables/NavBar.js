@@ -11,13 +11,6 @@ export default function NavBar() {
 
     const currentLanguage = typeof i18n.language === 'string' ? i18n.language.toUpperCase() : 'EN';
 
-    useEffect(() => {
-        const currentLangauge = i18n.language.toLowerCase()
-        if (!languages.includes(currentLangauge)) {
-            i18n.changeLanguage("en")
-        }
-    }, []);
-
     return (
         <div className="site-header light-color">
             <div className="container">
@@ -48,7 +41,7 @@ export default function NavBar() {
                                 <li id="menu-item-812" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-812">
                                     <a href="/contact"><span>{t('contact')}</span></a>
                                 </li>
-                                <li className="language-selector">
+                                <li className="language-selector menu-item menu-item-type-post_type menu-item-object-page">
                                     <span>{currentLanguage} <ChevronDown /></span>
                                     <ul className="language-dropdown">
                                         {languages.map((lang) => (
