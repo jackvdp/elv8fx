@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+@import '../../../../assets/css/font.css';
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
@@ -6358,37 +6358,37 @@ h6 a,
 h1,
 .h1 {
   font-size: 60px;
-  font-weight: bold;
+  font-weight: normal !important;
 }
 
 h2,
 .h2 {
   font-size: 48px;
-  font-weight: bold;
+  font-weight: normal !important;
 }
 
 h3,
 .h3 {
   font-size: 36px;
-  font-weight: bold;
+  font-weight: normal !important;
 }
 
 h4,
 .h4 {
   font-size: 30px;
-  font-weight: bold;
+  font-weight: normal !important;
 }
 
 h5,
 .h5 {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: normal !important;
 }
 
 h6,
 .h6 {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: normal !important;
 }
 
 @media (max-width: 767.98px) {
@@ -6704,7 +6704,7 @@ body {
   min-width: 320px;
   position: relative;
   line-height: 1.5;
-  font-family: "Poppins", sans-serif;
+  font-family: "Akkurat-Light", sans-serif;
   overflow-x: hidden;
   color: #ffffff;
   background: #010101 50% 0 repeat;
@@ -10261,7 +10261,8 @@ nav.woocommerce-pagination ul li a:focus {
   min-width: 100%;
   z-index: 1000;
   display: none;
-  border-radius: 12px; /* This will round all corners */
+  border-radius: 12px;
+  /* This will round all corners */
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }

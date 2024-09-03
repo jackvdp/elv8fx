@@ -1,3 +1,5 @@
+@import './font.css';
+
 :root {
     --wp--preset--aspect-ratio--square: 1;
     --wp--preset--aspect-ratio--4-3: 4/3;
@@ -349,43 +351,41 @@ body {
 
 h1,
 .h1 {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: 'Akkurat-Light', sans-serif;
     font-size: 60px;
 }
 
 h2,
 .h2 {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: 'Akkurat-Light', sans-serif;
     font-size: 48px;
+    font-weight: normal !important;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 h3,
 .h3 {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: 'Akkurat-Light', sans-serif;
     font-size: 36px;
 }
 
 h4,
 .h4 {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: 'Akkurat-Light', sans-serif;
     font-size: 30px;
 }
 
 h5,
 .h5 {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: 'Akkurat-Light', sans-serif;
     font-size: 24px;
 }
 
 h6,
 .h6 {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: 'Akkurat-Light', sans-serif;
     font-size: 18px;
 }
 
