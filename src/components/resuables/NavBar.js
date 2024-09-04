@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 export default function NavBar() {
@@ -54,20 +54,41 @@ const ChevronDown = () => (
     </svg>
 );
 
-function LanguageButton({showOnLargeScreen}) {
+function LanguageButton({ showOnLargeScreen }) {
     const { i18n } = useTranslation('navbar');
     const languages = ['en', 'es', 'fr', 'de', 'it', 'nl'];
+    const [isOpen, setIsOpen] = useState(false);
+    const dropdownRef = useRef(null);
 
     const changeLanguage = (langCode) => {
         i18n.changeLanguage(langCode);
+        setIsOpen(false);
     };
 
     const currentLanguage = typeof i18n.language === 'string' ? i18n.language.toUpperCase() : 'EN';
 
+    useEffect(() => {
+        function handleClickOutside(event) {
+            if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+                setIsOpen(false);
+            }
+        }
+
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, []);
+
     return (
-        <li className={`${showOnLargeScreen ? "language-button-large" : "language-button-small"} language-selector menu-item menu-item-type-post_type menu-item-object-page`}>
-            <span>{currentLanguage} <ChevronDown /></span>
-            <ul className="language-dropdown">
+        <li
+            className={`${showOnLargeScreen ? "language-button-large" : "language-button-small"} language-selector menu-item menu-item-type-post_type menu-item-object-page`}
+            ref={dropdownRef}
+            onMouseEnter={() => setIsOpen(true)}
+            onMouseLeave={() => setIsOpen(false)}
+        >
+            <span onClick={() => setIsOpen(!isOpen)}>{currentLanguage} <ChevronDown /></span>
+            <ul className={`language-dropdown ${isOpen ? 'show' : ''}`}>
                 {languages.map((lang) => (
                     <li
                         key={lang}
@@ -79,5 +100,5 @@ function LanguageButton({showOnLargeScreen}) {
                 ))}
             </ul>
         </li>
-    )
+    );
 }

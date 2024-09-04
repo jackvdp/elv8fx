@@ -10279,14 +10279,16 @@ nav.woocommerce-pagination ul li a:focus {
   min-width: 100%;
   z-index: 1000;
   display: none;
-  border-radius: 12px; /* This will round all corners */
+  border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
 }
 
-.language-selector:hover .language-dropdown {
+.language-dropdown.show {
   display: block;
-  /* Show on hover */
+  opacity: 1;
 }
 
 .language-dropdown li {
@@ -10296,6 +10298,10 @@ nav.woocommerce-pagination ul li a:focus {
 
 .language-dropdown li:hover {
   background-color: #feb406;
+}
+
+.language-selector span {
+  cursor: pointer;
 }
 
 .chevron {
