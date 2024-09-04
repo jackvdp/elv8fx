@@ -1,15 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 export default function NavBar() {
-    const { t, i18n } = useTranslation('navbar');
-    const languages = ['en', 'es', 'fr', 'de', 'it', 'nl'];
-
-    const changeLanguage = (langCode) => {
-        i18n.changeLanguage(langCode);
-    };
-
-    const currentLanguage = typeof i18n.language === 'string' ? i18n.language.toUpperCase() : 'EN';
+    const { t } = useTranslation('navbar');
 
     return (
         <div className="site-header light-color">
@@ -41,22 +34,10 @@ export default function NavBar() {
                                 <li id="menu-item-812" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-812">
                                     <a href="/contact"><span>{t('contact')}</span></a>
                                 </li>
-                                <li className="language-selector menu-item menu-item-type-post_type menu-item-object-page">
-                                    <span>{currentLanguage} <ChevronDown /></span>
-                                    <ul className="language-dropdown">
-                                        {languages.map((lang) => (
-                                            <li
-                                                key={lang}
-                                                onClick={() => changeLanguage(lang)}
-                                                className={lang.toUpperCase() === currentLanguage ? 'selected' : ''}
-                                            >
-                                                {lang.toUpperCase()}
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </li>
+                                <LanguageButton showOnLargeScreen={true} />
                             </ul>
                         </nav>
+                        <LanguageButton showOnLargeScreen={false} />
                         <div className="nav-butter visible_menu">
                             <span></span><span></span><span></span>
                         </div>
@@ -72,3 +53,31 @@ const ChevronDown = () => (
         <path d="M1 1L6 6L11 1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
 );
+
+function LanguageButton({showOnLargeScreen}) {
+    const { i18n } = useTranslation('navbar');
+    const languages = ['en', 'es', 'fr', 'de', 'it', 'nl'];
+
+    const changeLanguage = (langCode) => {
+        i18n.changeLanguage(langCode);
+    };
+
+    const currentLanguage = typeof i18n.language === 'string' ? i18n.language.toUpperCase() : 'EN';
+
+    return (
+        <li className={`${showOnLargeScreen ? "language-button-large" : "language-button-small"} language-selector menu-item menu-item-type-post_type menu-item-object-page`}>
+            <span>{currentLanguage} <ChevronDown /></span>
+            <ul className="language-dropdown">
+                {languages.map((lang) => (
+                    <li
+                        key={lang}
+                        onClick={() => changeLanguage(lang)}
+                        className={lang.toUpperCase() === currentLanguage ? 'selected' : ''}
+                    >
+                        {lang.toUpperCase()}
+                    </li>
+                ))}
+            </ul>
+        </li>
+    )
+}

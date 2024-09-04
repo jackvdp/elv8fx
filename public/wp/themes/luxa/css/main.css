@@ -8265,6 +8265,24 @@ textarea.style1 {
   }
 }
 
+.language-button-small {
+  display: none !important;
+}
+
+
+@media (max-width: 991.98px) {
+  .language-button-small {
+    display: block !important;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .language-button-large {
+    display: none !important;
+  }
+}
+
 .site-header.on-side .nav-butter {
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
