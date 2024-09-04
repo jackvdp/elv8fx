@@ -1,14 +1,14 @@
 {
     "header": {
         "subtitle": "services",
-        "title": "Tailored FX Solutions - Navigating Your <1>Financial Horizons</1>"
+        "title": "Delivering FX Solutions - To Help Navigate Your <1>Financial Horizons</1>"
     },
     "faq": {
         "title": "Frequently Asking Questions",
         "questions": {
             "fees": {
                 "question": "What are the fees?",
-                "answer": "We do not add on any fees, you will pay the agreed quote and we will forward the payment on for you."
+                "answer": "We employ zero bank charges, when you call us, you will be quoted an exchange rate and the cost for transaction, and once you confirm to book the trade in, this will be the price you pay."
             },
             "openAccount": {
                 "question": "How to open an account?",
@@ -16,7 +16,7 @@
             },
             "safeguarding": {
                 "question": "How is my money safeguarded?",
-                "answer": "We partner with payment service providers, to ensure that your funds are handled with the utmost care. Our partners employ robust security measures, including holding client funds in segregated accounts separate from their own operating accounts, to enhance the safety and efficiency of your transactions."
+                "answer": "We partner with payment service providers, to ensure that your funds are handled with the utmost care. Our partners employ robust security measures. Funds are safeguarded by our FCA-regulated e-money partners as a credit institution, to enhance the safety and efficiency of your transactions."
             },
             "trackPayments": {
                 "question": "Can I track my payments?",

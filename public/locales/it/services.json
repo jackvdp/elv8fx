@@ -1,14 +1,14 @@
 {
     "header": {
         "subtitle": "Servizi",
-        "title": "Soluzioni FX personalizzate - Navigare i tuoi <1>orizzonti finanziari</1>"
+        "title": "Fornitura di Soluzioni FX - Per Aiutarti a Navigare i Tuoi <1>Orizzonti Finanziari</1>"
     },
     "faq": {
         "title": "Domande Frequenti",
         "questions": {
             "fees": {
                 "question": "Quali sono le commissioni?",
-                "answer": "Non aggiungiamo alcuna commissione, pagherete il prezzo concordato e noi inoltreremo il pagamento per voi."
+                "answer": "Non applichiamo commissioni bancarie. Quando ci contatti, ti verrà fornito un tasso di cambio e il costo della transazione, e una volta confermata la prenotazione, questo sarà il prezzo che pagherai."
             },
             "openAccount": {
                 "question": "Come aprire un conto?",
@@ -16,7 +16,7 @@
             },
             "safeguarding": {
                 "question": "Come vengono protetti i miei fondi?",
-                "answer": "Collaboriamo con fornitori di servizi di pagamento per garantire che i vostri fondi siano gestiti con la massima cura. I nostri partner impiegano misure di sicurezza robuste, tra cui la tenuta dei fondi dei clienti su conti separati rispetto ai propri conti operativi, per migliorare la sicurezza e l'efficienza delle vostre transazioni."
+                "answer": "Collaboriamo con fornitori di servizi di pagamento per garantire che i tuoi fondi siano gestiti con la massima cura. I nostri partner utilizzano misure di sicurezza robuste. I fondi sono protetti dai nostri partner di moneta elettronica regolamentati dalla FCA come istituti di credito, per migliorare la sicurezza e l'efficienza delle tue transazioni."
             },
             "trackPayments": {
                 "question": "Posso tracciare i miei pagamenti?",

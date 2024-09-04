@@ -1,14 +1,14 @@
 {
     "header": {
         "subtitle": "Dienstleistungen",
-        "title": "Maßgeschneiderte FX-Lösungen - Navigieren Sie durch Ihre <1>finanziellen Horizonte</1>"
+        "title": "Bereitstellung von FX-Lösungen - Um Ihre <1>Finanzhorizonte</1> zu navigieren"
     },
     "faq": {
         "title": "Häufig gestellte Fragen",
         "questions": {
             "fees": {
                 "question": "Was sind die Gebühren?",
-                "answer": "Wir erheben keine zusätzlichen Gebühren, Sie zahlen den vereinbarten Preis, und wir leiten die Zahlung für Sie weiter."
+                "answer": "Wir erheben keine Bankgebühren. Wenn Sie uns anrufen, erhalten Sie einen Wechselkurs und die Kosten für die Transaktion. Sobald Sie die Buchung bestätigen, zahlen Sie den vereinbarten Preis."
             },
             "openAccount": {
                 "question": "Wie eröffne ich ein Konto?",
@@ -16,7 +16,7 @@
             },
             "safeguarding": {
                 "question": "Wie werden meine Gelder geschützt?",
-                "answer": "Wir arbeiten mit Zahlungsdienstleistern zusammen, um sicherzustellen, dass Ihre Gelder mit größter Sorgfalt behandelt werden. Unsere Partner setzen robuste Sicherheitsmaßnahmen ein, einschließlich der Verwahrung von Kundengeldern auf getrennten Konten, die von ihren eigenen Betriebskonten getrennt sind, um die Sicherheit und Effizienz Ihrer Transaktionen zu erhöhen."
+                "answer": "Wir arbeiten mit Zahlungsdienstleistern zusammen, um sicherzustellen, dass Ihre Gelder mit größter Sorgfalt behandelt werden. Unsere Partner setzen robuste Sicherheitsmaßnahmen ein. Die Gelder werden von unseren FCA-regulierten E-Geld-Partnern als Kreditinstitut geschützt, um die Sicherheit und Effizienz Ihrer Transaktionen zu erhöhen."
             },
             "trackPayments": {
                 "question": "Kann ich meine Zahlungen verfolgen?",
