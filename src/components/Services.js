@@ -59,7 +59,6 @@ export default function Services() {
                                 subtitle={t('header.subtitle')}
                                 image={"/wp/images/AdobeStock_286776272-copy.jpeg"}
                             />
-                            <div className="vc_row-full-width vc_clearfix"></div>
                             <OurServices />
                             <FAQ />
                             <div className="vc_row wpb_row vc_row-fluid vc_row-">

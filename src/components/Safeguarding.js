@@ -8,7 +8,7 @@ export default function Safeguarding() {
     const { t } = useTranslation('safeguarding');
 
     return (
-        <body
+        <div
             className="page-template page-template-template-landing page-template-template-landing-php page page-id-897 unknown preloader-true header-container header-light header-logo-left header-space-true right-click-disable-false mobile-images-false custom-cursor-true hide-popup-download-link wpb-js-composer js-comp-ver-7.4 vc_responsive">
             <div id="page">
                 <MouseCursor />
@@ -55,6 +55,6 @@ export default function Safeguarding() {
                 </main>
                 <Footer />
             </div>
-        </body>
+        </div>
     )
 }
