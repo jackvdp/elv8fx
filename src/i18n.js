@@ -10,7 +10,7 @@ i18n
     .init({
         fallbackLng: 'en',
         supportedLngs: ['en', 'es', 'fr', 'de', 'it', 'nl'],
-        debug: true,
+        debug: process.env.REACT_APP_I18N_DEBUG === 'true',
         ns: ['navbar'],
         defaultNS: 'navbar',
         backend: {
