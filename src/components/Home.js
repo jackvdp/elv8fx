@@ -106,7 +106,7 @@ function Lion() {
             <div className="item item-left">
                 <div className="content">
                     <div className="heading-block tal h-h2">
-                        <h2 className="h">
+                        <h2 data-aos="fade-right" data-aos-delay="100" className="h">
                             <Trans i18nKey="lion.heading" ns="home" components={[<span />, <span />]}>
                                 <span>Elev8</span> – blending fintech & consultancy<br /><span>Best of both worlds</span>
                             </Trans>
@@ -114,7 +114,7 @@ function Lion() {
                     </div>
 
                     <div className="wpb_text_column wpb_content_element">
-                        <div className="wpb_wrapper">
+                        <div data-aos="fade-left" data-aos-delay="100" className="wpb_wrapper">
                             <p style={{ color: "#b1b0b0", maxWidth: "465px", margin: "30px 0" }}>
                                 {t('lion.description')}
                             </p>
@@ -124,7 +124,7 @@ function Lion() {
                         <div className="wpb_column vc_column_container vc_col-sm-6 mb-5">
                             <div className="vc_column-inner">
                                 <div className="wpb_wrapper">
-                                    <div className="button-container button-65c2184f6d6c6 left">
+                                    <div data-aos="fade-up" data-aos-delay="300" className="button-container button-65c2184f6d6c6 left">
                                         <a className="button-style1"
                                             href="https://onboarding.paydirect.io/elev8_group/forms/corporate"
                                             target="_blank">
@@ -138,7 +138,7 @@ function Lion() {
                         <div className="wpb_column vc_column_container vc_col-sm-6">
                             <div className="vc_column-inner">
                                 <div className="wpb_wrapper">
-                                    <div className="button-container button-65c273a2b9912 left">
+                                    <div data-aos="fade-up" data-aos-delay="500" className="button-container button-65c273a2b9912 left">
                                         <a className="button-style1"
                                             href="https://onboarding.paydirect.io/elev8_group/forms/individual"
                                             target="_blank">
