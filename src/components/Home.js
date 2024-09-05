@@ -114,7 +114,7 @@ function Lion() {
                     </div>
 
                     <div className="wpb_text_column wpb_content_element">
-                        <div data-aos="fade-left" data-aos-delay="100" className="wpb_wrapper">
+                        <div data-aos="fade-left" data-aos-delay="100" data-aos-offset="0" className="wpb_wrapper">
                             <p style={{ color: "#b1b0b0", maxWidth: "465px", margin: "30px 0" }}>
                                 {t('lion.description')}
                             </p>
@@ -124,7 +124,7 @@ function Lion() {
                         <div className="wpb_column vc_column_container vc_col-sm-6 mb-5">
                             <div className="vc_column-inner">
                                 <div className="wpb_wrapper">
-                                    <div data-aos="fade-up" data-aos-delay="300" className="button-container button-65c2184f6d6c6 left">
+                                    <div data-aos="fade-up" data-aos-delay="300" data-aos-offset="0" className="button-container button-65c2184f6d6c6 left">
                                         <a className="button-style1"
                                             href="https://onboarding.paydirect.io/elev8_group/forms/corporate"
                                             target="_blank">
@@ -138,7 +138,7 @@ function Lion() {
                         <div className="wpb_column vc_column_container vc_col-sm-6">
                             <div className="vc_column-inner">
                                 <div className="wpb_wrapper">
-                                    <div data-aos="fade-up" data-aos-delay="500" className="button-container button-65c273a2b9912 left">
+                                    <div data-aos="fade-up" data-aos-delay="500" data-aos-offset="0" className="button-container button-65c273a2b9912 left">
                                         <a className="button-style1"
                                             href="https://onboarding.paydirect.io/elev8_group/forms/individual"
                                             target="_blank">
@@ -170,8 +170,8 @@ function Services() {
             <div className="item item-right">
                 <div className="content">
                     <div className="heading-block heading-5c9b520683d0e tal h-h2">
-                        <div className="sub-h">{t('services.subHeading')}</div>
-                        <h2 className="h">
+                        <div data-aos="fade-left" className="sub-h">{t('services.subHeading')}</div>
+                        <h2 data-aos="fade-right" className="h">
                             <Trans i18nKey="services.heading" ns='home'>
                                 Your Global <span>FX</span> Strategy,
                                 <span> Elevated</span>
@@ -180,7 +180,7 @@ function Services() {
                     </div>
                     <div className="icon-box2-block icon-box2-block-5c9b529cc0158 row">
                         <div className=" col-12 col-md-6">
-                            <div className="icon-box-style2 icon-box-style2-5c9b55f12b856 tal">
+                            <div data-aos="fade-up" className="icon-box-style2 icon-box-style2-5c9b55f12b856 tal">
                                 <i className="base-icon-piggy-bank"></i>
                                 <h5 className="h">
                                     <Trans i18nKey="services.strategicInsights.title" ns='home'>
@@ -191,7 +191,7 @@ function Services() {
                             </div>
                         </div>
                         <div className=" col-12 col-md-6">
-                            <div className="icon-box-style2 icon-box-style2-5c9b5623802b8 tal">
+                            <div data-aos="fade-up" className="icon-box-style2 icon-box-style2-5c9b5623802b8 tal">
                                 <i className="essential-set-diamond"></i>
                                 <h5 className="h">
                                     <Trans i18nKey="services.tailoredSolutions.title" ns='home'>
@@ -202,7 +202,7 @@ function Services() {
                             </div>
                         </div>
                         <div className=" col-12 col-md-6">
-                            <div className="icon-box-style2 icon-box-style2-5c9b56905e1bf tal">
+                            <div data-aos="fade-up" className="icon-box-style2 icon-box-style2-5c9b56905e1bf tal">
                                 <i className="base-icon-padlock"></i>
                                 <h5 className="h">
                                     <Trans i18nKey="services.secureTransactions.title" ns='home'>
@@ -213,7 +213,7 @@ function Services() {
                             </div>
                         </div>
                         <div className=" col-12 col-md-6">
-                            <div className="icon-box-style2 icon-box-style2-5c9b56a2b7f7b tal">
+                            <div data-aos="fade-up" className="icon-box-style2 icon-box-style2-5c9b56a2b7f7b tal">
                                 <i className="base-icon-avatar"></i>
                                 <h5 className="h">
                                     <Trans i18nKey="services.clientCentricSupport.title" ns='home'>
@@ -238,8 +238,8 @@ function Numbers() {
             <div className="item item-left">
                 <div className="content">
                     <div className="heading-block heading-5c9b58c1d62ad tal h-h2">
-                        <div className="sub-h">{t('numbers.subHeading')}</div>
-                        <h2 className="h">
+                        <div data-aos="fade-left" className="sub-h">{t('numbers.subHeading')}</div>
+                        <h2 data-aos="fade-right" className="h">
                             <Trans i18nKey="numbers.heading" ns='home'>
                                 <span>Precision</span> solutions at the core of the
                                 service.
@@ -247,7 +247,7 @@ function Numbers() {
                         </h2>
                     </div>
                     <div className="num-box-items num-box-65bf87f03cdfa row no-gutters">
-                        <div className="num-box-item num-box-item-65bf87fbe7d1c  col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div data-aos="fade-up" className="num-box-item num-box-item-65bf87fbe7d1c  col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                             <i className="interview-handshake"></i>
                             <div className="line"></div>
                             <div className="content">
@@ -255,7 +255,7 @@ function Numbers() {
                                 <h6 className="h">{t('numbers.transacted')}</h6>
                             </div>
                         </div>
-                        <div className="num-box-item num-box-item-65bf890ce7788  col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div data-aos="fade-up" className="num-box-item num-box-item-65bf890ce7788  col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                             <i className="interview-hiring"></i>
                             <div className="line"></div>
                             <div className="content">
@@ -263,7 +263,7 @@ function Numbers() {
                                 <h6 className="h">{t('numbers.regulated')}</h6>
                             </div>
                         </div>
-                        <div className="num-box-item num-box-item-65bf8c7f686bb  col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div data-aos="fade-up" className="num-box-item num-box-item-65bf8c7f686bb  col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                             <i className="base-icon-piggy-bank"></i>
                             <div className="line"></div>
                             <div className="content">
@@ -271,7 +271,7 @@ function Numbers() {
                                 <h6 className="h">{t('numbers.currencies')}</h6>
                             </div>
                         </div>
-                        <div className="num-box-item num-box-item-65bf8ebae9b72  col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div data-aos="fade-up" className="num-box-item num-box-item-65bf8ebae9b72  col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                             <i className="base-icon-avatar"></i>
                             <div className="line"></div>
                             <div className="content">
@@ -302,26 +302,26 @@ function Contact() {
             <div className="item item-right">
                 <div className="content">
                     <div className="heading-block heading-5c9b68b12e575 tal h-h2 vc_custom_1707222417639">
-                        <div className="sub-h">{t('contact.subHeading')}</div>
-                        <h2 className="h">
+                        <div data-aos="fade-left" className="sub-h">{t('contact.subHeading')}</div>
+                        <h2 data-aos="fade-right" className="h">
                             <Trans i18nKey="contact.heading" ns='home'>
                                 Let's <span>Talk!</span>
                             </Trans>
                         </h2>
                     </div>
-                    <div className="contact-row contact-row-5c9b68e143866 medium">
+                    <div data-aos="fade-up" className="contact-row contact-row-5c9b68e143866 medium">
                         <i className="base-icon-phone-call"></i>
                         <div className="content">
                             <a href="tel:+442045801415">+44 (0) 20 4580 1415</a>
                         </div>
                     </div>
-                    <div className="contact-row contact-row-5c9b68f2ca8cf medium">
+                    <div data-aos="fade-up" className="contact-row contact-row-5c9b68f2ca8cf medium">
                         <i className="base-icon-envelope"></i>
                         <div className="content">
                             <a href="mailto:info@elev8exchange.com">info@elev8exchange.com</a>
                         </div>
                     </div>
-                    <div className="contact-row contact-row-5c9b68ffab193 medium">
+                    <div data-aos="fade-up" className="contact-row contact-row-5c9b68ffab193 medium">
                         <i className="base-icon-placeholder"></i>
                         <div className="content">
                             <span>
@@ -332,7 +332,7 @@ function Contact() {
                             </span>
                         </div>
                     </div>
-                    <div className="button-container button-5c9b6916f934f left vc_custom_1707081983215">
+                    <div data-aos="fade-up" data-aos-offset="0" className="button-container button-5c9b6916f934f left vc_custom_1707081983215">
                         <a className="button-style1" href="/contact" target="_self">
                             <span className="d"><span></span></span>
                             <span>{t('contact.buttonText')}</span>
