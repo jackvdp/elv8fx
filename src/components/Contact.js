@@ -67,17 +67,17 @@ export default function Contact() {
                                     <div className="vc_column-inner " >
                                         <div className="wpb_wrapper">
                                             <div className="heading-block heading-5ca2f90bb768f tal h-h2 vc_custom_1554185717393">
-                                                <h2 className="h">{t('title')}</h2>
+                                                <h2 data-aos="fade-left" className="h">{t('title')}</h2>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="side-img wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
+                                <div data-aos="fade-up" className="side-img wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
                                     <div className="vc_column-inner vc_custom_1707237899435" >
                                         <div className="wpb_wrapper"></div>
                                     </div>
                                 </div>
-                                <div className="wpb_column vc_column_container vc_col-sm-4">
+                                <div data-aos="fade-up" className="wpb_column vc_column_container vc_col-sm-4">
                                     <div className="vc_column-inner vc_custom_1554186194062" >
                                         <div className="wpb_wrapper">
                                             <div className="contact-row contact-row-5ca2fb3313f0b with-h">
@@ -110,7 +110,7 @@ export default function Contact() {
                                             <div className="wpb_text_column wpb_content_element  vc_custom_1707213467286">
                                                 <div className="wpb_wrapper">
 
-                                                    <div className="wpcf7 no-js" id="wpcf7-f774-p178-o1" lang="ru-RU" dir="ltr">
+                                                    <div data-aos="fade-left" className="wpcf7 no-js" id="wpcf7-f774-p178-o1" lang="ru-RU" dir="ltr">
                                                         <div className="screen-reader-response">
                                                             <p role="status" aria-live="polite" aria-atomic="true"></p>
                                                             <ul></ul>
