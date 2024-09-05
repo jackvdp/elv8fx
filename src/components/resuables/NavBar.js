@@ -25,9 +25,6 @@ export default function NavBar() {
                                 <li id="menu-item-814" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-814">
                                     <a href="/services"><span>{t('services')}</span></a>
                                 </li>
-                                <li id="menu-item-815" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-815">
-                                    <a href="https://elev8exchange.sciopay.co/login" target="_blank" rel="noopener noreferrer"><span>{t('login')}</span></a>
-                                </li>
                                 <li id="menu-item-813" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-813">
                                     <a href="/security"><span>{t('security')}</span></a>
                                 </li>
@@ -35,6 +32,9 @@ export default function NavBar() {
                                     <a href="/contact"><span>{t('contact')}</span></a>
                                 </li>
                                 <LanguageButton showOnLargeScreen={true} />
+                                <li id="menu-item-815 mx-5" >
+                                    <a className="cta-button" href="https://elev8exchange.sciopay.co/login" target="_blank" rel="noopener noreferrer"><span>{t('login')}</span></a>
+                                </li>
                             </ul>
                         </nav>
                         <LanguageButton showOnLargeScreen={false} />

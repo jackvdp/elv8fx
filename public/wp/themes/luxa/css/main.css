@@ -10302,6 +10302,7 @@ nav.woocommerce-pagination ul li a:focus {
 
 .language-selector span {
   cursor: pointer;
+  font-weight: 600;
 }
 
 .chevron {
