@@ -182,7 +182,7 @@ function FAQ() {
                     </div>
                 </div>
             </div>
-            <div className="side-img wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill">
+            <div data-aos="fade-right" className="side-img wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill">
                 <div className="vc_column-inner vc_custom_1707237777518">
                     <div className="wpb_wrapper"></div>
                 </div>
@@ -191,27 +191,27 @@ function FAQ() {
                 <div className="vc_column-inner">
                     <div className="wpb_wrapper">
                         <div className="accordion-block accordion-block-5ca2f2d9d1d66 vc_custom_1554183365427">
-                            <div className="accordion-item accordion-item-5ca2f2f31580c">
+                            <div data-aos="fade-up" className="accordion-item accordion-item-5ca2f2f31580c">
                                 <div className="top">{t('faq.questions.fees.question')}<div className="button"></div>
                                 </div>
                                 <div className="wrap">{t('faq.questions.fees.answer')}</div>
                             </div>
-                            <div className="accordion-item accordion-item-5ca2f30ecd5c8">
+                            <div data-aos="fade-up" className="accordion-item accordion-item-5ca2f30ecd5c8">
                                 <div className="top">{t('faq.questions.openAccount.question')}<div className="button"></div>
                                 </div>
                                 <div className="wrap">{t('faq.questions.openAccount.answer')}</div>
                             </div>
-                            <div className="accordion-item accordion-item-5ca2f311a0d6f">
+                            <div data-aos="fade-up" className="accordion-item accordion-item-5ca2f311a0d6f">
                                 <div className="top">{t('faq.questions.safeguarding.question')}<div className="button"></div>
                                 </div>
                                 <div className="wrap">{t('faq.questions.safeguarding.answer')}</div>
                             </div>
-                            <div className="accordion-item accordion-item-5ca2f31623c9c">
+                            <div data-aos="fade-up" className="accordion-item accordion-item-5ca2f31623c9c">
                                 <div className="top">{t('faq.questions.trackPayments.question')}<div className="button"></div>
                                 </div>
                                 <div className="wrap">{t('faq.questions.trackPayments.answer')}</div>
                             </div>
-                            <div className="accordion-item accordion-item-5ca2f31b6e091">
+                            <div data-aos="fade-up" className="accordion-item accordion-item-5ca2f31b6e091">
                                 <div className="top">{t('faq.questions.fixRate.question')}<div className="button"></div>
                                 </div>
                                 <div className="wrap">{t('faq.questions.fixRate.answer')}</div>

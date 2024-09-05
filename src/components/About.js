@@ -192,14 +192,14 @@ function Tabs() {
                     <div className="wpb_wrapper">
                         <div className="vertical-tabs vertical-tabs-5c9381c4295a1">
                             <div className="tabs-items">
-                                <div className="tab-item">
+                                <div data-aos="fade-up" className="tab-item">
                                     <div className="tab-m-button">
                                         <div className="num">01</div>
                                         <div className="label">{t('tabs.purpose.title')}</div>
                                     </div>
                                     <div className="inner" style={{ display: "block" }}>
                                         <div className="inner-content">
-                                            <div className="image"
+                                            <div data-aos="fade-right" className="image"
                                                 style={{ backgroundImage: "url(/wp/images/AdobeStock_269555184-copy-1.jpeg)" }}>
                                             </div>
                                             <div className="content">
