@@ -121,7 +121,7 @@ function Lion() {
                         </div>
                     </div>
                     <div className="vc_row wpb_row vc_inner vc_row-fluid">
-                        <div className="wpb_column vc_column_container vc_col-sm-6">
+                        <div className="wpb_column vc_column_container vc_col-sm-6 mb-5">
                             <div className="vc_column-inner">
                                 <div className="wpb_wrapper">
                                     <div className="button-container button-65c2184f6d6c6 left">
