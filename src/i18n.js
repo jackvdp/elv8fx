@@ -13,6 +13,7 @@ i18n
         debug: process.env.REACT_APP_I18N_DEBUG === 'true',
         ns: ['navbar'],
         defaultNS: 'navbar',
+        lng: 'en',
         backend: {
             loadPath: '/locales/{{lng}}/{{ns}}.json',
         },
@@ -22,7 +23,7 @@ i18n
         detection: {
             order: ['navigator', 'htmlTag', 'path', 'subdomain'],
             caches: ['localStorage', 'cookie'],
-            checkWhitelist: true // This ensures only languages in supportedLngs are used
+            checkWhitelist: true
         }
     });
 
