@@ -33,7 +33,7 @@ export default function NavBar() {
                                 </li>
                                 <LanguageButton showOnLargeScreen={true} />
                                 <li id="menu-item-815 mx-5" >
-                                    <a className="cta-button" href="https://elev8exchange.sciopay.co/login" target="_blank" rel="noopener noreferrer"><span>{t('login')}</span></a>
+                                    <a className="cta-button" href="https://apply.ebury.com/sfdc/servlet/SmartForm.html?formCode=currency-services&brand=EGP" target="_blank" rel="noopener noreferrer"><span>{t('login')}</span></a>
                                 </li>
                             </ul>
                         </nav>
