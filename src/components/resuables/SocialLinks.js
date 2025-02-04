@@ -8,6 +8,9 @@ export default function SocialLinks() {
                 <a href="https://www.linkedin.com/company/elev8-groupuk/about/">
                     <span>li</span><span>LinkedIn</span>
                 </a>
+                <a href="https://vanderpump.tech" target="_blank" rel="noreferrer">
+                    <span>MB</span><span>Made by</span>
+                </a>
             </div>
         </div>
     )

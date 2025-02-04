@@ -112,7 +112,7 @@ function DisclaimerText() {
                 <p style={{marginTop: "0", fontSize: "8px", lineHeight: "12px"}}>
                     <span style={{fontSize: "8pt", color: "#808080"}}>
                         <Trans i18nKey="disclaimer" ns="footer"/>{' '}
-                        <a href="https://www.currencycloud.com/legal/terms/">Currencycloud Terms of Use</a>
+                        <a href="https://www.currencycloud.com/legal/terms/" target="_blank" rel="noreferrer">Currencycloud Terms of Use</a>
                     </span>
                 </p>
             </div>
