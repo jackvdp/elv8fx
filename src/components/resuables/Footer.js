@@ -105,10 +105,12 @@ function DisclaimerText() {
     return (
         <div id="black-studio-tinymce-3" className="widget widget_black_studio_tinymce">
             <div className="textwidget-center-widget">
-                <p style={{ marginTop: "0", fontSize: "8px", lineHeight: "12px" }}>
-                    <span style={{ fontSize: "8pt", color: "#808080" }}>
-                        <Trans i18nKey="disclaimer" ns="footer" />
+                <p style={{marginTop: "0", fontSize: "8px", lineHeight: "12px"}}>
+                    <span style={{fontSize: "8pt", color: "#808080"}}>
+                        <Trans i18nKey="disclaimer" ns="footer"/>{' '}
+                        <a href="https://www.currencycloud.com/legal/terms/">Currencycloud Terms of Use</a>
                     </span>
+
                 </p>
             </div>
         </div>
