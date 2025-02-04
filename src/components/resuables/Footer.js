@@ -58,6 +58,9 @@ function SiteMap() {
     )
 }
 
+// a tag that opens in new tab
+// <a href="https://www.currencycloud.com/legal/terms/" target="_blank" rel="noreferrer">Currencycloud Terms of Use</a>
+
 function Complaints() {
     const { t } = useTranslation('footer');
 
@@ -71,6 +74,7 @@ function Complaints() {
                     <a href="/safeguarding"><span>{t('complaints.safeguarding')}</span></a>
                 </div>
             </div>
+            <a style={{marginTop: "12px", fontSize: "14px", opacity: 0.75}} href="https://vanderpump.tech" target="_blank" rel="noreferrer">Made by Vanderpump Tech</a>
         </div>
     )
 }
@@ -110,7 +114,6 @@ function DisclaimerText() {
                         <Trans i18nKey="disclaimer" ns="footer"/>{' '}
                         <a href="https://www.currencycloud.com/legal/terms/">Currencycloud Terms of Use</a>
                     </span>
-
                 </p>
             </div>
         </div>
