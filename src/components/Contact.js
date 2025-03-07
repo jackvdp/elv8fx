@@ -98,7 +98,7 @@ export default function Contact() {
                                                 <i className="base-icon-placeholder"></i>
                                                 <div className="content">
                                                     <div className="h">{t('locationLabel')}:</div>
-                                                    <span>1 Moor Place<br/>1 Fore Street Avenuee<br/>Londone<br/>EC2Y 9DT</span>
+                                                    <span>1 Moor Place<br/>1 Fore Street Avenue<br/>London<br/>EC2Y 9DT</span>
                                                 </div>
                                             </div>
                                         </div>
