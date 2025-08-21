@@ -12,6 +12,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n';
+import Privacy from "./components/Privacy";
 
 const usePageTitle = (getTitle) => {
     const defaultTitle = 'Elev8 FX - Empowering Your Global Financial Strategy';
@@ -52,6 +53,7 @@ function AppContent() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/safeguarding" element={<Safeguarding />} />
             <Route path="/complaints" element={<Complaints />} />
+            <Route path="/privacy" element={<Privacy />} />
             <Route path="/404" element={<Error404 />} />
             <Route path="*" element={<Error404 />} />
         </Routes>
