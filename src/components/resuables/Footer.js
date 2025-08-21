@@ -73,6 +73,9 @@ function Complaints() {
                 <div className="contact-row-no-margin">
                     <a href="/safeguarding"><span>{t('complaints.safeguarding')}</span></a>
                 </div>
+                <div className="contact-row-no-margin">
+                    <a href="/privacy"><span>{t('complaints.privacy')}</span></a>
+                </div>
             </div>
             {/*<a style={{marginTop: "12px", fontSize: "14px", opacity: 0.75}} href="https://vanderpump.tech" target="_blank" rel="noreferrer">Made by Vanderpump Tech</a>*/}
         </div>
