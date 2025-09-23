@@ -325,10 +325,7 @@ function Contact() {
                         <i className="base-icon-placeholder"></i>
                         <div className="content">
                             <span>
-                                1 Moor Place<br />
-                                1 Fore Street Avenue<br />
-                                London<br />
-                                EC2Y 9DT
+                                <span>111 Finsbury Pavement<br/>London<br/>EC2A 1RS</span>
                             </span>
                         </div>
                     </div>

@@ -1,4 +1,5 @@
 import { useTranslation, Trans } from "react-i18next";
+import React from "react";
 
 export default function Footer() {
     return (
@@ -99,7 +100,7 @@ function Contacts() {
                 </div>
                 <div className="contact-row">
                     <i className="base-icon-placeholder"></i>
-                    <span>1 Moor Place<br />1 Fore Street Avenue<br />London<br />EC2Y 9DT</span>
+                    <span>111 Finsbury Pavement<br/>London<br/>EC2A 1RS</span>
                 </div>
             </div>
         </div>

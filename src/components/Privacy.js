@@ -31,7 +31,7 @@ export default function Privacy() {
                                                     <h2 style={{color: '#666', fontWeight: '300', marginBottom: '1rem'}}>Privacy Policy – Elev8 Group</h2>
                                                     <div style={{backgroundColor: '#2c2c2c', color: '#fff', padding: '1.5rem', borderRadius: '8px', marginBottom: '1rem'}}>
                                                         <p style={{margin: '0.5rem 0'}}><strong>Company Number:</strong> 15422926</p>
-                                                        <p style={{margin: '0.5rem 0'}}><strong>Registered Office:</strong> Moor Place, 1 Fore Street Avenue, London, England, EC2Y 9DT</p>
+                                                        <p style={{margin: '0.5rem 0'}}><strong>Registered Office:</strong>111 Finsbury Pavement, London, EC2A 1RS</p>
                                                     </div>
                                                     <p>Elev8 Group is committed to protecting the privacy of any personal information that you may choose to provide to us ("Personal Information"). Elev8 Group will ensure that the use of your Personal Information is compliant with the General Data Protection Regulation (GDPR), (Regulation (EU) 2016/679). Accordingly, this policy outlines our approach to handling your Personal Information.</p>
                                                     <p><em>Elev8 Group is committed to providing a safe, responsible, and secure environment.</em></p>
@@ -42,7 +42,7 @@ export default function Privacy() {
                                                     <p><strong>1.1</strong> This Privacy Policy sets out how Elev8 Group ("we" or "us") collects and processes Personal Information, and the steps we take to protect it.</p>
                                                     <p><strong>1.2</strong> By using our Services, you acknowledge that you have read and agree to the terms of this Privacy Policy, and you consent to the use of your Personal Information as outlined herein. If you do not wish to provide Personal Information, you may be unable to use all the features of our Services.</p>
                                                     <p><strong>1.3</strong> Capitalised terms not defined in this Privacy Policy shall be as defined in our Terms & Conditions.</p>
-                                                    <p><strong>1.4</strong> This website (www.elev8exchange.com) is operated by Elev8 Group, a UK limited company with registration number 15422926 and registered office at Moor Place, 1 Fore Street Avenue, London, EC2Y 9DT.</p>
+                                                    <p><strong>1.4</strong> This website (www.elev8exchange.com) is operated by Elev8 Group, a UK limited company with registration number 15422926 and registered office at 111 Finsbury Pavement, London, EC2A 1RS.</p>
                                                     
                                                     <div style={{marginTop: '1.5rem'}}>
                                                         <p><strong>1.5 Definitions:</strong></p>
@@ -157,7 +157,7 @@ export default function Privacy() {
                                                     <div style={{backgroundColor: '#2c2c2c', color: '#fff', padding: '1.5rem', borderRadius: '8px', marginTop: '1rem'}}>
                                                         <p style={{margin: '0.5rem 0'}}><strong>Elev8 Group</strong></p>
                                                         <p style={{margin: '0.5rem 0'}}><strong>Email:</strong> <a href="mailto:admin@elev8exchange.com" style={{color: '#D4AF37'}}>admin@elev8exchange.com</a></p>
-                                                        <p style={{margin: '0.5rem 0'}}><strong>Address:</strong> Moor Place, 1 Fore Street Avenue, London, England, EC2Y 9DT</p>
+                                                        <p style={{margin: '0.5rem 0'}}><strong>Address:</strong>111 Finsbury Pavement, London, EC2A 1RS</p>
                                                         <p style={{margin: '0.5rem 0'}}><strong>Phone:</strong> <a href="tel:+442045801415" style={{color: '#D4AF37'}}>+44 (0)20 4580 1415</a></p>
                                                     </div>
                                                 </div>
