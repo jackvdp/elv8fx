@@ -136,6 +136,7 @@ export default function Privacy() {
                                                 <div data-aos="fade-up" className="mb-5">
                                                     <h3 style={{color: '#666', fontWeight: '300', borderBottom: '2px solid #D4AF37', paddingBottom: '0.5rem', marginBottom: '1rem'}}>6. Data Retention & Security</h3>
                                                     <p>We retain your data for as long as required to provide services, meet legal obligations, and resolve disputes. You can update or delete your information by accessing your client account or contacting us directly.</p>
+                                                    <p>In accordance with our regulatory obligations, including those required by our payment and e-money institution partners, we retain your personal data for a minimum of 5 years following the end of our business relationship or the closure of your account. This retention period is required to comply with applicable anti-money laundering regulations, payment services regulations, and other legal requirements.</p>
                                                     <p>We reserve the right to withhold data if releasing it would affect others' rights and freedoms or if a request is manifestly excessive. Reasonable admin fees may apply.</p>
                                                     <p>We may use automated decision-making in some instances (e.g., personalising content), and you have the right to opt out.</p>
                                                 </div>

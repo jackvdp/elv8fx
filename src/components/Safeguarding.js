@@ -44,6 +44,10 @@ export default function Safeguarding() {
                                                         <strong>{t('section3.title')}:</strong><br />
                                                         {t('section3.text')}
                                                     </section>
+                                                    <br />
+                                                    <section>
+                                                        {t('section4')}
+                                                    </section>
                                                 </div>
                                             </div>
                                         </div>

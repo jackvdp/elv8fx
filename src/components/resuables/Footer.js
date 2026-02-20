@@ -1,4 +1,4 @@
-import { useTranslation, Trans } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import React from "react";
 
 export default function Footer() {
@@ -115,7 +115,7 @@ function DisclaimerText() {
             <div className="textwidget-center-widget">
                 <p style={{marginTop: "0", fontSize: "8px", lineHeight: "12px"}}>
                     <span style={{fontSize: "8pt", color: "#808080"}}>
-                        <Trans i18nKey="disclaimer" ns="footer"/>{' '}
+                        <span dangerouslySetInnerHTML={{ __html: t('disclaimer') }} />{' '}
                         <a href="https://www.currencycloud.com/legal/terms/" target="_blank" rel="noreferrer">Currencycloud Terms of Use</a>
                     </span>
                 </p>
