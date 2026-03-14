@@ -126,7 +126,7 @@ function Lion() {
                                 <div className="wpb_wrapper">
                                     <div data-aos="fade-up" data-aos-delay="300" data-aos-offset="0" className="button-container button-65c2184f6d6c6 left">
                                         <a className="button-style1"
-                                            href="https://onboarding.paydirect.io/elev8_group/forms/corporate"
+                                            href="https://elev8exchange.equalsconnect.com/account/open"
                                             target="_blank">
                                             <span className="d"><span></span></span>
                                             <span>{t('lion.business')}</span>

@@ -33,7 +33,7 @@ export default function NavBar() {
                                 </li>
                                 <LanguageButton showOnLargeScreen={true} />
                                 <li id="menu-item-815 mx-5" >
-                                    <a className="cta-button" href="https://onboarding.paydirect.io/elev8_group/forms/corporate" target="_blank" rel="noopener noreferrer"><span>{t('login')}</span></a>
+                                    <a className="cta-button" href="https://elev8exchange.equalsconnect.com/account/open" target="_blank" rel="noopener noreferrer"><span>{t('login')}</span></a>
                                 </li>
                             </ul>
                         </nav>
